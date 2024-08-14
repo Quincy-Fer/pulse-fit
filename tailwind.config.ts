@@ -7,10 +7,13 @@ const config: Config = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-
     fontFamily: {
       lato: 'var(--font-lato)',
       montserrat: 'var(--font-montserrat)'
+    },
+
+    backgroundImage: {
+      hero: 'url(/images/hero-lg.jpg)'
     },
     extend: {
       backgroundImage: {
