@@ -28,7 +28,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${montserrat.variable} ${lato.variable}`}>
+      <body className={`${montserrat.variable} ${lato.variable} w-full max-w-[1440x] mx-auto`}>
         <Header /> {children} <Footer />
       </body>
     </html>
