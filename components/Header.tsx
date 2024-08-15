@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { NAVLINKS } from "@/constants/index";
+import ButtonJoin from "./ButtonJoin";
 
 const Header = () => {
   return (
@@ -32,6 +33,12 @@ const Header = () => {
           );
         })}
       </nav>
+      <div className="flex gap-2">
+        <ButtonJoin
+          text="Join Now"
+          containerStyles="px-6 py-2 text-white bg-accent uppercase font-bold hover:bg-black hover:text-accent transition-all"
+        />
+      </div>
     </header>
   );
 };
