@@ -1,3 +1,6 @@
+import { FaDumbbell, FaClipboardCheck } from "react-icons/fa6";
+import { GrLounge, GrYoga } from "react-icons/gr";
+
 export const NAVLINKS = [
   {
     href: "/",
@@ -38,3 +41,34 @@ export const ABOUT = {
   paragraph:
     "At PulseFit, we're more than just a gym—we're a community driven by the belief that every individual has the potential to achieve greatness. Founded with a passion for fitness and a commitment to innovation, PulseFit was created to redefine the workout experience. Our mission is to empower you with the tools, support, and environment you need to elevate your health and well-being. Whether you're a fitness enthusiast or just beginning your journey, PulseFit is here to inspire and challenge you every step of the way.",
 };
+
+export const FEATURES = [
+  {
+    title: "State-of-the-Art Equipment",
+    paragraph:
+      "PulseFit is equipped with the latest fitness technology, from smart cardio machines that adjust to your performance to cutting-edge strength training gear designed to maximize results.",
+    key: "Equipment",
+    icon: FaDumbbell,
+  },
+  {
+    title: "Dynamic Class Offerings",
+    paragraph:
+      "We offer a wide variety of classes including high-energy HIIT, relaxing yoga sessions, and innovative cycling experiences. All designed to cater to various fitness levels and goals.",
+    key: "Dynamic Classes",
+    icon: GrYoga,
+  },
+  {
+    title: "Personalized Training Programs",
+    paragraph:
+      "Customized fitness plans tailored to your individual goals and needs are included when signing  up. Supported by expert trainers who provide guidance and motivation to help you succeed.",
+    key: "Training Programs",
+    icon: FaClipboardCheck,
+  },
+  {
+    title: "Exceptional Member Comfort",
+    paragraph:
+      "Experience our top-tier wellness areas, including revitalizing recovery lounges, soothing sauna rooms and a wellness cafe with healthy refreshments. All crafted to enhance your gym experience and promote well-being.",
+    key: "Comfort areas",
+    icon: GrLounge,
+  },
+];

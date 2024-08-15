@@ -4,7 +4,7 @@ import { ABOUT } from "@/constants";
 
 const About = () => {
   return (
-    <section className="mx-auto bg-slate-50 relative ">
+    <section className="mx-auto bg-slate-50 relative pb-20 ">
       <img
         src="/images/pulsesvg.svg"
         alt="image of a pulse"
