@@ -35,6 +35,7 @@ const Header = () => {
       </nav>
       <div className="">
         <ButtonJoin
+          href="/membership"
           text="Join Now"
           containerStyles="px-8 py-3 text-white bg-accent uppercase font-bold hover:bg-black hover:text-accent transition-all duration-300"
         />

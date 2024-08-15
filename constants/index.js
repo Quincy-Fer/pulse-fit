@@ -29,5 +29,5 @@ export const NAVLINKS = [
 export const HERO = {
   header: "Where Every Pulse Powers Your Potential",
   paragraph:
-    "At PulseFit, we believe that every heartbeat is an opportunity to push your limits and unlock new strengths.  Join us, and let every pulse bring you closer to the best version of yourself.",
+    "At PulseFit, we believe that every heartbeat is an opportunity to push your limits and unlock new strengths, let every pulse bring you closer to the best version of yourself.",
 };
