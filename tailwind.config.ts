@@ -15,7 +15,12 @@ const config: Config = {
     backgroundImage: {
       hero: 'url(/images/hero-lg.jpg)'
     },
+
+   
     extend: {
+      colors : {
+        accent: '#b91c1c'
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
