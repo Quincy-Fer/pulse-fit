@@ -6,7 +6,7 @@ import ButtonJoin from "./ButtonJoin";
 const Header = () => {
   return (
     <header
-      className="fixed flex items-center justify-between px-10  z-30 py-2  w-full mx-auto  bg-black"
+      className="fixed flex items-center justify-between px-14  z-30 py-2  w-full mx-auto  bg-black"
       id="home"
     >
       {/* Logo */}
@@ -33,10 +33,10 @@ const Header = () => {
           );
         })}
       </nav>
-      <div className="flex gap-2">
+      <div className="">
         <ButtonJoin
           text="Join Now"
-          containerStyles="px-6 py-2 text-white bg-accent uppercase font-bold hover:bg-black hover:text-accent transition-all"
+          containerStyles="px-8 py-3 text-white bg-accent uppercase font-bold hover:bg-black hover:text-accent transition-all duration-300"
         />
       </div>
     </header>
