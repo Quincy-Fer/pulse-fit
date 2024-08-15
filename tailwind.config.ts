@@ -14,7 +14,6 @@ const config: Config = {
 
     backgroundImage: {
       hero: 'url(/images/hero-lg.jpg)',
-      pulse: 'url(/images/pulsesvg.svg)',
     },
 
 
