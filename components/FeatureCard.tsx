@@ -15,7 +15,7 @@ const FeatureCard = ({
     <div className="flex flex-col items-center ">
       <Icon className="text-accent text-[72px] self-center mb-4  "  /> 
       <h4 className="text-white text-xl self-center mb-4">{title}</h4>
-      <p className="text-white max-w-[600px] text-base  ">{paragraph}</p> 
+      <p className="text-white max-w-[600px] text-base ">{paragraph}</p> 
     </div>
   );
 };

@@ -1,4 +1,5 @@
-import { FaDumbbell, FaClipboardCheck } from "react-icons/fa6";
+import { FaDumbbell, FaClipboardCheck, FaClock } from "react-icons/fa6";
+import { PiVirtualRealityFill } from "react-icons/pi";
 import { GrLounge, GrYoga } from "react-icons/gr";
 
 export const NAVLINKS = [
@@ -70,5 +71,19 @@ export const FEATURES = [
       "Experience our top-tier wellness areas, including revitalizing recovery lounges, soothing sauna rooms and a wellness cafe with healthy refreshments. All crafted to enhance your gym experience and promote well-being.",
     key: "Comfort areas",
     icon: GrLounge,
+  },
+  {
+    title: "24/7 Gym Access",
+    paragraph:
+      "Life is busy, but your fitness shouldn't have to wait. With 24/7 access to our state-of-the-art facility, you can work out whenever it suits you. Early morning, late night, or anything in between—PulseFit is here for you.",
+    key: "24/7 access",
+    icon: FaClock,
+  },
+  {
+    title: "Virtual Fitness Class",
+    paragraph:
+      "Stay on track with your fitness goals, no matter where you are, with our virtual fitness classes. Access a variety of workouts online, led by our expert trainers, and exercise from the comfort of your home or while traveling.",
+    key: "vr",
+    icon: PiVirtualRealityFill,
   },
 ];
