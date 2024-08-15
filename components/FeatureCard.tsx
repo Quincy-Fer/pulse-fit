@@ -12,10 +12,10 @@ const FeatureCard = ({
   icon: IconType;
 }) => {
   return (
-    <div className="flex flex-col justify-center">
-      <Icon className="text-white text-[72px]"  /> 
-      <h4 className="text-white text-lg">{title}</h4>
-      <p className="text-white max-w-[600px]">{paragraph}</p> 
+    <div className="flex flex-col items-center ">
+      <Icon className="text-accent text-[72px] self-center mb-4  "  /> 
+      <h4 className="text-white text-xl self-center mb-4">{title}</h4>
+      <p className="text-white max-w-[600px] text-base  ">{paragraph}</p> 
     </div>
   );
 };
