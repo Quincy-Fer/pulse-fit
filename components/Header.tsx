@@ -17,6 +17,7 @@ const Header = () => {
           width={100}
           alt="logo"
           priority={true}
+          className="py-1"
         />
       </Link>
       {/* Links Desktop */}

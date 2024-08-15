@@ -24,7 +24,7 @@ const About = () => {
           <ButtonJoin
             href="/about"
             text="Learn More"
-            containerStyles="mt-16 font-bold bg-accent px-8 py-4 text-white hover:bg-black hover:text-white
+            containerStyles="uppercase mt-16 font-bold bg-accent px-8 py-4 text-white hover:bg-black hover:text-white
            transition-all text-lg "
           />
         </div>
