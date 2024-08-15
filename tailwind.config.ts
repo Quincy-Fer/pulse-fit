@@ -13,12 +13,13 @@ const config: Config = {
     },
 
     backgroundImage: {
-      hero: 'url(/images/hero-lg.jpg)'
+      hero: 'url(/images/hero-lg.jpg)',
+      pulse: 'url(/images/pulsesvg.svg)',
     },
 
-   
+
     extend: {
-      colors : {
+      colors: {
         accent: '#b91c1c'
       },
       backgroundImage: {

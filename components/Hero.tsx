@@ -16,7 +16,7 @@ const Hero = () => {
           <p className="text-white text-lg max-w-[600px] mt-5 ">
             {HERO.paragraph}
           </p>
-          <div className="flex gap-48 mt-16">
+          <div className="flex gap-20 mt-16">
             <ButtonJoin
               text="Contact Us"
               href="/contact"
