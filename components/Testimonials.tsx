@@ -13,6 +13,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import { TESTIMONIALS } from "@/constants";
 import { FaQuoteLeft } from "react-icons/fa6";
+import SwiperNavButtons from "./SwiperNavButtons";
 
 const Testimonials = () => {
   return (
@@ -56,12 +57,20 @@ const Testimonials = () => {
                 <div className="flex flex-col justify-center p-4">
                   <FaQuoteLeft className="self-center mt-2 text-4xl text-accent" />
                   <p className="text-gray-800 text-center p-2">{item.text}</p>
-                  <p className="self-center mt-4 font-bold tracking-[3px]">{item.name}</p>
+                  <p className="self-center mt-4 font-bold tracking-[3px]">
+                    {item.name}
+                  </p>
                 </div>
               </div>
             </SwiperSlide>
           );
         })}
+        <SwiperNavButtons
+          containerStyles="absolute  top-20  w-full z-50 flex lg:justify-between "
+          btnStyles=" bg-accent text-white w-[56px] h-[56px] flex justify-center items-center 
+        hover:bg-black transition-all duration-300"
+          iconStyles="text-4xl"
+        />
       </Swiper>
     </section>
   );
