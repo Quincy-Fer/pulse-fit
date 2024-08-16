@@ -97,6 +97,7 @@ export const CLASSES = [
     key: "HIIT",
     image: "/images/crossfitclass.jpg",
     icon: BsArrowUpRightCircleFill,
+    alt:'Hiit Training'
   },
   {
     title: "Power Yoga",
@@ -105,6 +106,7 @@ export const CLASSES = [
     key: "Yoga",
     image: "/images/yogaclass.jpg",
     icon: BsArrowUpRightCircleFill,
+    alt:'Yoga'
   },
   {
     title: "Spin Surge",
@@ -113,6 +115,7 @@ export const CLASSES = [
     key: "Spinning",
     image: "/images/spinningclass.jpg",
     icon: BsArrowUpRightCircleFill,
+    alt:'Spinning Training'
   },
   {
     title: "Boxing Burn",
@@ -121,5 +124,6 @@ export const CLASSES = [
     key: "Boxing",
     image: "/images/boxingclass.jpg",
     icon: BsArrowUpRightCircleFill,
+    alt: 'Boxing'
   },
 ];
