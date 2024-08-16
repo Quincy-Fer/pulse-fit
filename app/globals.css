@@ -17,3 +17,8 @@ h6 {
   @apply font-montserrat font-bold uppercase;
 }
 
+/* swiper pagination styles */
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+  @apply bg-accent;
+}
