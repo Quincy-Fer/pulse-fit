@@ -66,7 +66,7 @@ const Testimonials = () => {
           );
         })}
         <SwiperNavButtons
-          containerStyles="absolute  top-20  w-full z-50 flex lg:justify-between "
+          containerStyles="absolute top-20  w-full z-50 flex lg:justify-between "
           btnStyles=" bg-accent text-white w-[56px] h-[56px] flex justify-center items-center 
         hover:bg-black transition-all duration-300"
           iconStyles="text-4xl"

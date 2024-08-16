@@ -167,7 +167,7 @@ export const TESTIMONIALS = [
     name: "Carlos Ramirez",
     key: "Carlos",
     text: "The diverse range of classes at PulseFit ensures I never get bored. From high-energy HIIT to relaxing yoga, there's something for every mood and fitness level. The Elite Membership's \
-    unlimited personal training sessions have been a game-changer for my progress",
+    unlimited personal training sessions have been a game-changer for my progress.",
     image: "/images/man1.jpg",
     icon: IoMdQuote,
     alt:'image of carlos'
@@ -176,7 +176,7 @@ export const TESTIMONIALS = [
     name: "Jasmine Xian",
     key: "Jasmine",
     text: "As someone new to fitness, PulseFit's personalized training plans and supportive trainers made all the difference. The Basic Membership's\
-     inclusion of a weekly free class was the perfect way to start my journey",
+     inclusion of a weekly free class was the perfect way to start my journey.",
     image: "/images/woman2.jpg",
     icon: IoMdQuote,
     alt:'image of jasmine'
@@ -193,7 +193,7 @@ export const TESTIMONIALS = [
   {
     name: "Chloe Edwards",
     key: "Chloe",
-    text: "The holistic approach at PulseFit, from the advanced recovery tools to the exclusive wellness workshops, is what sets it apart. My Elite Membership allows me access to all these benefits, making every workout session more effective and enjoyable",
+    text: "The holistic approach at PulseFit, from the advanced recovery tools to the exclusive wellness workshops, is what sets it apart. My Elite Membership allows me access to all these benefits, making every workout session more effective and enjoyable.",
     image: "/images/woman3.jpg",
     icon: IoMdQuote,
     alt:'image of chloe'
@@ -201,7 +201,7 @@ export const TESTIMONIALS = [
   {
     name: "Noah Sullivan",
     key: "Noah",
-    text: "PulseFit's community vibe and high-energy classes have completely transformed my fitness routine. The diverse class offerings and premium facilities available with my membership keep me motivated and excited to come back every day",
+    text: "PulseFit's community vibe and high-energy classes have completely transformed my fitness routine. The diverse class offerings and premium facilities available with my membership keep me motivated and excited to come back every day.",
     image: "/images/man3.jpg",
     icon: IoMdQuote,
     alt:'image of noah'
@@ -209,7 +209,7 @@ export const TESTIMONIALS = [
   {
     name: "Sofia Martinez",
     key: "Sofiaa",
-    text: "The variety of classes at PulseFit is amazing. Whether I'm doing a high-intensity workout or a relaxing yoga session, the facilities and expert trainers make each experience unique. The unlimited classes and personalized plan from my Premium Membership are invaluable",
+    text: "The variety of classes at PulseFit is amazing. Whether I'm doing a high-intensity workout or a relaxing yoga session, the facilities and expert trainers make each experience unique. The unlimited classes and personalized plan from my Premium Membership are invaluable.",
     image: "/images/woman4.jpg",
     icon: IoMdQuote,
     alt:'image of sofia'
@@ -217,7 +217,7 @@ export const TESTIMONIALS = [
   {
     name: "Jack Lee",
     key: "Jack",
-    text: "I'm blown away by the quality of service at PulseFit. The Elite Membership's benefits, including unlimited personal training sessions and exclusive workshops, have elevated my fitness journey to new heights. The amenities are top-notch",
+    text: "I'm blown away by the quality of service at PulseFit. The Elite Membership's benefits, including unlimited personal training sessions and exclusive workshops, have elevated my fitness journey to new heights. The amenities are top-notch.",
     image: "/images/man4.jpg",
     icon: IoMdQuote,
     alt:'image of jack'
@@ -225,7 +225,7 @@ export const TESTIMONIALS = [
   {
     name: "Emily Boss",
     key: "Emily",
-    text: "PulseFit's CoreBlast Bootcamp is my favorite! The focused core workouts have strengthened my abs and back, and the Basic Membership's inclusion of a weekly class is perfect for staying on track with my goals",
+    text: "PulseFit's CoreBlast Bootcamp is my favorite! The focused core workouts have strengthened my abs and back, and the Basic Membership's inclusion of a weekly class is perfect for staying on track with my goals.",
     image: "/images/woman5.jpg",
     icon: IoMdQuote,
     alt:'image of emily'
