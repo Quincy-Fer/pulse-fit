@@ -1,6 +1,7 @@
 import { FaDumbbell, FaClipboardCheck, FaClock } from "react-icons/fa6";
 import { PiVirtualRealityFill } from "react-icons/pi";
 import { GrLounge, GrYoga } from "react-icons/gr";
+import { BsArrowUpRightCircleFill } from "react-icons/bs";
 
 export const NAVLINKS = [
   {
@@ -85,5 +86,40 @@ export const FEATURES = [
       "Stay on track with your fitness goals, no matter where you are, with our virtual fitness classes. Access a variety of workouts online, led by our expert trainers, and exercise from the comfort of your home or while traveling.",
     key: "vr",
     icon: PiVirtualRealityFill,
+  },
+];
+
+export const CLASSES = [
+  {
+    title: "HIIT Blast",
+    paragraph:
+      "Push your limits with high-intensity interval training that maximizes calorie burn and boosts endurance.",
+    key: "HIIT",
+    image: "/images/crossfitclass.jpg",
+    icon: BsArrowUpRightCircleFill,
+  },
+  {
+    title: "Power Yoga",
+    paragraph:
+      "Strengthen your body and calm your mind with this dynamic flow yoga class designed for all levels.",
+    key: "Yoga",
+    image: "/images/yogaclass.jpg",
+    icon: BsArrowUpRightCircleFill,
+  },
+  {
+    title: "Spin Surge",
+    paragraph:
+      "Ride to the rhythm in this high-energy cycling class that will leave you drenched in sweat and full of energy.",
+    key: "Spinning",
+    image: "/images/spinningclass.jpg",
+    icon: BsArrowUpRightCircleFill,
+  },
+  {
+    title: "Boxing Burn",
+    paragraph:
+      "Channel your inner fighter with this intense boxing-inspired workout that builds strength and agility.",
+    key: "Boxing",
+    image: "/images/boxingclass.jpg",
+    icon: BsArrowUpRightCircleFill,
   },
 ];
