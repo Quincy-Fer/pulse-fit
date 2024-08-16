@@ -1,3 +1,5 @@
+import ButtonJoin from "./ButtonJoin";
+
 const PricingCard = ({
   title,
   price,
@@ -18,6 +20,15 @@ const PricingCard = ({
         </p>
       </div>
       <p className="text-white tracking-[2px] mt-8 ">{paragraph}</p>
+
+      <div className="text-center">
+        <ButtonJoin
+          text="Join Now"
+          href="/membership"
+          containerStyles="text-white px-4 py-2 border-2 uppercase mt-4 font-bold 
+          hover:text-white hover:bg-black transition-all hover:border-none"
+        />
+      </div>
     </div>
   );
 };
