@@ -130,21 +130,21 @@ export const CLASSES = [
 
 export const PRICING = [
   {
-    title: "Essential",
+    title: "Essential Pulse",
     paragraph:
       "Kickstart your fitness journey with Essential Pulse, offering the basics you need to get moving and stay motivated in a supportive environment.",
     key: "essential",
     price: 35,
   },
   {
-    title: "Enhanced",
+    title: "Enhanced Pulse",
     paragraph:
       "Take your routine to the next level with Enhanced Pulse, offering extended access and enhanced features to help you achieve your fitness goals faster.",
     key: "essential",
     price: 55,
   },
   {
-    title: "Ultimate",
+    title: "Ultimate Pulse",
     paragraph:
       "Experience the ultimate in fitness with Ultimate Pulse, where personalized services and exclusive access meet to elevate your performance and results.",
     key: "ultimate",
