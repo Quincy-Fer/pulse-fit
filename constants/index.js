@@ -1,7 +1,7 @@
 import { FaDumbbell, FaClipboardCheck, FaClock } from "react-icons/fa6";
 import { PiVirtualRealityFill } from "react-icons/pi";
 import { GrLounge, GrYoga } from "react-icons/gr";
-import { BsArrowUpRightCircleFill } from "react-icons/bs";
+import { FaLocationArrow } from "react-icons/fa6";
 
 export const NAVLINKS = [
   {
@@ -96,7 +96,7 @@ export const CLASSES = [
       "Push your limits with high-intensity interval training that maximizes calorie burn and boosts endurance.",
     key: "HIIT",
     image: "/images/crossfitclass.jpg",
-    icon: BsArrowUpRightCircleFill,
+    icon: FaLocationArrow,
     alt:'Hiit Training'
   },
   {
@@ -105,7 +105,7 @@ export const CLASSES = [
       "Strengthen your body and calm your mind with this dynamic flow yoga class designed for all levels.",
     key: "Yoga",
     image: "/images/cta3.jpg",
-    icon: BsArrowUpRightCircleFill,
+    icon: FaLocationArrow,
     alt:'Yoga'
   },
   {
@@ -114,7 +114,7 @@ export const CLASSES = [
       "Ride to the rhythm in this high-energy cycling class that will leave you drenched in sweat and full of energy.",
     key: "Spinning",
     image: "/images/spinningclass.jpg",
-    icon: BsArrowUpRightCircleFill,
+    icon: FaLocationArrow,
     alt:'Spinning Training'
   },
   {
@@ -123,7 +123,7 @@ export const CLASSES = [
       "Channel your inner fighter with this intense boxing-inspired workout that builds strength and agility.",
     key: "Boxing",
     image: "/images/boxingclass.jpg",
-    icon: BsArrowUpRightCircleFill,
+    icon: FaLocationArrow,
     alt: 'Boxing'
   },
 ];
