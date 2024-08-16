@@ -21,12 +21,12 @@ const Testimonials = () => {
         <h2 className="text-5xl tracking-tight  text-center leading-tight ">
           Real Stories, Real Results
         </h2>
-        <p className="tracking-[3px] text-center mt-2 font-bold">
+        <p className="tracking-[3px] text-center mt-2 text">
           Read why our members love being a part of PulseFit:
         </p>
       </div>
       <Swiper
-        className="h-[700px]"
+        className="h-[550px]"
         slidesPerView={1}
         spaceBetween={30}
         modules={[Pagination]}
@@ -44,9 +44,21 @@ const Testimonials = () => {
       >
         {TESTIMONIALS.map((item) => {
           return (
-            <SwiperSlide key={item.key} className="h-full">
-              <h1>lala</h1>
-             
+            <SwiperSlide key={item.key} className="">
+              <div className="flex flex-col  justify-center">
+                <div className="h-[200px] w-[200px] mt-8 self-center">
+                  <img
+                    src={item.image}
+                    alt={item.alt}
+                    className="bg-cover w-full h-full  rounded-full"
+                  />
+                </div>
+                <div className="flex flex-col justify-center p-4">
+                  <FaQuoteLeft className="self-center mt-2 text-4xl text-accent" />
+                  <p className="text-gray-800 text-center p-2">{item.text}</p>
+                  <p className="self-center mt-4 font-bold tracking-[3px]">{item.name}</p>
+                </div>
+              </div>
             </SwiperSlide>
           );
         })}

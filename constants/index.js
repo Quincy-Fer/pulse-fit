@@ -161,6 +161,7 @@ export const TESTIMONIALS = [
      Plus, the unlimited group classes with my Premium Membership keep me motivated and engaged!",
     image: "/images/woman1.jpg",
     icon: IoMdQuote,
+    alt:'image of megan'
   },
   {
     name: "Carlos Ramirez",
@@ -169,6 +170,7 @@ export const TESTIMONIALS = [
     unlimited personal training sessions have been a game-changer for my progress",
     image: "/images/man1.jpg",
     icon: IoMdQuote,
+    alt:'image of carlos'
   },
   {
     name: "Jasmine Xian",
@@ -177,6 +179,7 @@ export const TESTIMONIALS = [
      inclusion of a weekly free class was the perfect way to start my journey",
     image: "/images/woman2.jpg",
     icon: IoMdQuote,
+    alt:'image of jasmine'
   },
   {
     name: "Ramesh Patel",
@@ -185,6 +188,7 @@ export const TESTIMONIALS = [
     Membership makes every visit feel like a treat. The priority booking for classes is also a huge plus!",
     image: "/images/man2.jpg",
     icon: IoMdQuote,
+    alt:'image of ramesh'
   },
   {
     name: "Chloe Edwards",
@@ -192,6 +196,7 @@ export const TESTIMONIALS = [
     text: "The holistic approach at PulseFit, from the advanced recovery tools to the exclusive wellness workshops, is what sets it apart. My Elite Membership allows me access to all these benefits, making every workout session more effective and enjoyable",
     image: "/images/woman3.jpg",
     icon: IoMdQuote,
+    alt:'image of chloe'
   },
   {
     name: "Noah Sullivan",
@@ -199,6 +204,7 @@ export const TESTIMONIALS = [
     text: "PulseFit's community vibe and high-energy classes have completely transformed my fitness routine. The diverse class offerings and premium facilities available with my membership keep me motivated and excited to come back every day",
     image: "/images/man3.jpg",
     icon: IoMdQuote,
+    alt:'image of noah'
   },
   {
     name: "Sofia Martinez",
@@ -206,6 +212,7 @@ export const TESTIMONIALS = [
     text: "The variety of classes at PulseFit is amazing. Whether I'm doing a high-intensity workout or a relaxing yoga session, the facilities and expert trainers make each experience unique. The unlimited classes and personalized plan from my Premium Membership are invaluable",
     image: "/images/woman4.jpg",
     icon: IoMdQuote,
+    alt:'image of sofia'
   },
   {
     name: "Jack Lee",
@@ -213,6 +220,7 @@ export const TESTIMONIALS = [
     text: "I'm blown away by the quality of service at PulseFit. The Elite Membership's benefits, including unlimited personal training sessions and exclusive workshops, have elevated my fitness journey to new heights. The amenities are top-notch",
     image: "/images/man4.jpg",
     icon: IoMdQuote,
+    alt:'image of jack'
   },
   {
     name: "Emily Boss",
@@ -220,6 +228,7 @@ export const TESTIMONIALS = [
     text: "PulseFit's CoreBlast Bootcamp is my favorite! The focused core workouts have strengthened my abs and back, and the Basic Membership's inclusion of a weekly class is perfect for staying on track with my goals",
     image: "/images/woman5.jpg",
     icon: IoMdQuote,
+    alt:'image of emily'
   },
   {
     name: "Liam Roberts",
@@ -227,6 +236,7 @@ export const TESTIMONIALS = [
     text: "The variety of classes at PulseFit ensures I stay engaged and challenged. From Boxing Burn to Pilates Fusion, the Premium Membership's unlimited access is worth every penny. Plus, the 10% discount on merchandise is a nice bonus!",
     image: "/images/man5.jpg",
     icon: IoMdQuote,
+    alt:'image of liam'
   },
   {
     name: "Olivia Wilson",
@@ -234,6 +244,7 @@ export const TESTIMONIALS = [
     text: "PulseFit's commitment to wellness is evident in its exceptional recovery amenities. The advanced recovery tools and personalized nutrition plans included with my Elite Membership have made a huge difference in my overall well-being.",
     image: "/images/woman6.jpg",
     icon: IoMdQuote,
+    alt:'image of olivia'
   },
   {
     name: "Ryan Mitchell",
@@ -241,5 +252,6 @@ export const TESTIMONIALS = [
     text: "The community at PulseFit is incredibly supportive. With my Basic Membership, I've enjoyed trying different classes and meeting new people. The friendly atmosphere and high-quality equipment make it a fantastic place to work out.",
     image: "/images/man6.jpg",
     icon: IoMdQuote,
+    alt:'image of ryan'
   },
 ];
