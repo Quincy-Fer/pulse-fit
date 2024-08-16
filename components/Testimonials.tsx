@@ -11,6 +11,8 @@ import { Pagination } from "swiper/modules";
 // swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
+import { TESTIMONIALS } from "@/constants";
+import { FaQuoteLeft } from "react-icons/fa6";
 
 const Testimonials = () => {
   return (
@@ -20,11 +22,34 @@ const Testimonials = () => {
           Real Stories, Real Results
         </h2>
         <p className="tracking-[3px] text-center mt-2 font-bold">
-         Read why our members love being a part of PulseFit:
+          Read why our members love being a part of PulseFit:
         </p>
       </div>
-
-      
+      <Swiper
+        className="h-[700px]"
+        slidesPerView={1}
+        spaceBetween={30}
+        modules={[Pagination]}
+        pagination={{ clickable: true }}
+        breakpoints={{
+          768: {
+            slidesPerView: 2,
+            spaceBetween: 30,
+          },
+          1024: {
+            slidesPerView: 3,
+            spaceBetween: 30,
+          },
+        }}
+      >
+        {TESTIMONIALS.map((item) => {
+          return (
+            <SwiperSlide key={item.key} className="h-full">
+             
+            </SwiperSlide>
+          );
+        })}
+      </Swiper>
     </section>
   );
 };
