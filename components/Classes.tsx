@@ -10,10 +10,10 @@ const Classes = () => {
         <h2 className="text-5xl text-accent tracking-tight max-w-[800px]  leading-tight font-bold mb-4">
           Find Your Perfect Workout
         </h2>
-        <p className="max-w-[600px] text-gray-800 tracking-[3px] ">
+        <p className="max-w-[600px] text-gray-800 tracking-[3px] mb-8 ">
           Explore a sample of classes designed to challenge and inspire you
         </p>
-        <div className="grid grid-cols-1 md:grid-cols-2">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {CLASSES.map((item) => {
             return (
               <ClassCard
@@ -22,6 +22,7 @@ const Classes = () => {
                 paragraph={item.paragraph}
                 icon={item.icon}
                 image={item.image}
+                alt= {item.alt}
               />
             );
           })}

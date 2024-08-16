@@ -104,7 +104,7 @@ export const CLASSES = [
     paragraph:
       "Strengthen your body and calm your mind with this dynamic flow yoga class designed for all levels.",
     key: "Yoga",
-    image: "/images/yogaclass.jpg",
+    image: "/images/cta3.jpg",
     icon: BsArrowUpRightCircleFill,
     alt:'Yoga'
   },
