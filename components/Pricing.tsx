@@ -1,7 +1,5 @@
 import { PRICING } from "@/constants";
-import ButtonJoin from "./ButtonJoin";
 import PricingCard from "./PricingCard";
-import { it } from "node:test";
 
 const Pricing = () => {
   return (

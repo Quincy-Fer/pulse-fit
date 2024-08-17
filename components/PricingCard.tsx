@@ -28,14 +28,14 @@ const PricingCard = ({
       <div className="flex">
         {benefits.map((item) => {
           return (
-            <div className="">
-              <FaCheck className="text-2xl" />
-              <p className="text-balance">{item.benefitname}</p>
+            <div className="p-4">
+              {" "}
+              <p className="text-white text-lg ">{item.benefitname}</p>
             </div>
           );
         })}
       </div>
-      <p className="text-white tracking-[2px] mt-8 ">{paragraph}</p>
+      <p className="text-white/80 tracking-[2px] mt-8 ">{paragraph}</p>
 
       <div className="text-center">
         <ButtonJoin

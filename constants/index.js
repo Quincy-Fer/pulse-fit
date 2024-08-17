@@ -139,7 +139,7 @@ export const PRICING = [
     benefits: [
       { benefitname: "Access to gym facilities during standard hours" },
       { benefitname: "Unlimited access to virtual fitness classes" },
-      { benefitname: "2 group fitness classes per week" },
+      { benefitname: "Two group fitness classes per week" },
     ],
   },
   {
@@ -150,8 +150,8 @@ export const PRICING = [
     price: 55,
     benefits: [
       { benefitname: "24/7 access to all gym facilities" },
-      { benefitname: "5 group fitness classes per week" },
-      { benefitname: "1 personal training session per month" },
+      { benefitname: "Five group fitness classes per week" },
+      { benefitname: "One personal training session per month" },
     ],
   },
   {
@@ -163,7 +163,7 @@ export const PRICING = [
 
     benefits: [
       { benefitname: "Unlimited group fitness classes" },
-      { benefitname: "4 personal training sessions per month" },
+      { benefitname: "Five personal training sessions a month" },
       { benefitname: "Nutrition coaching and personalized meal plans" },
     ],
   },
