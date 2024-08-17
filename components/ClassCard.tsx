@@ -36,7 +36,7 @@ const ClassCard = ({
         >
           <p
             className="text-white 
-          font-bold text-lg uppercase  "
+          font-bold text-lg uppercase hover:underline transition-all hover:underline-offset-8  "
           >
             learn more
           </p>{" "}
