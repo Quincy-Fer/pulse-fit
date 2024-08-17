@@ -34,10 +34,15 @@ const ClassCard = ({
           href="/classes"
           className="flex gap-2 mt-10 justify-center transition-all "
         >
-          <p className="text-white underline underline-offset-8 font-bold text-base uppercase mt-1 ">
-            learn more
-          </p>
-          <Icon className="text-accent text-4xl " />
+          <div className="border-white border-2 flex gap-2 px-4 py-2">
+            <p
+              className="text-white 
+          font-bold text-base uppercase "
+            >
+              learn more
+            </p>{" "}
+            <Icon className="text-accent text-2xl " />
+          </div>
         </Link>
       </div>
     </div>
