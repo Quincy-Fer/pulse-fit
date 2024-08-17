@@ -3,7 +3,6 @@ import { PiVirtualRealityFill } from "react-icons/pi";
 import { GrLounge, GrYoga } from "react-icons/gr";
 import { FaLocationArrow } from "react-icons/fa6";
 import { IoMdQuote } from "react-icons/io";
-import { FaCheck } from "react-icons/fa6";
 
 export const NAVLINKS = [
   {
@@ -137,12 +136,11 @@ export const PRICING = [
       "Kickstart your fitness journey with Essential Pulse, offering the basics you need to get moving and stay motivated in a supportive environment.",
     key: "essential",
     price: 35,
-    benefits: {
-      1: "Access to gym facilities during standard hours",
-      2: "Unlimited access to virtual fitness classes",
-      3: "2 group fitness classes per week",
-    },
-    icon: FaCheck,
+    benefits: [
+      { benefitname: "Access to gym facilities during standard hours" },
+      { benefitname: "Unlimited access to virtual fitness classes" },
+      { benefitname: "2 group fitness classes per week" },
+    ],
   },
   {
     title: "Enhanced Pulse",
@@ -150,12 +148,11 @@ export const PRICING = [
       "Take your routine to the next level with Enhanced Pulse, offering extended access and enhanced features to help you achieve your fitness goals faster.",
     key: "essential",
     price: 55,
-    benefits: {
-      1: "24/7 access to all gym facilities",
-      2: "5 group fitness classes per week",
-      3: "1 personal training session per month",
-    },
-    icon: FaCheck,
+    benefits: [
+      { benefitname: "24/7 access to all gym facilities" },
+      { benefitname: "5 group fitness classes per week" },
+      { benefitname: "1 personal training session per month" },
+    ],
   },
   {
     title: "Ultimate Pulse",
@@ -163,13 +160,12 @@ export const PRICING = [
       "Experience the ultimate in fitness with Ultimate Pulse, where personalized services and exclusive access meet to elevate your performance and results.",
     key: "ultimate",
     price: 85,
-    icon: FaCheck,
-    benefits: {
-      1: "Unlimited group fitness classes",
-      2: "4 personal training sessions per month",
-      3: "Exclusive access to advanced recovery tools ",
-      4: "Nutrition coaching and personalized meal plans",
-    },
+
+    benefits: [
+      { benefitname: "Unlimited group fitness classes" },
+      { benefitname: "4 personal training sessions per month" },
+      { benefitname: "Nutrition coaching and personalized meal plans" },
+    ],
   },
 ];
 

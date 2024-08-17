@@ -18,14 +18,7 @@ const Pricing = () => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-10 p-16">
         {PRICING.map((item) => {
-          return (
-            <PricingCard
-              key={item.key}
-              price={item.price}
-              title={item.title}
-              paragraph={item.paragraph}
-            />
-          );
+          return <PricingCard {...item} />;
         })}
       </div>
     </section>

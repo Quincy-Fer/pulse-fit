@@ -1,14 +1,19 @@
+import { FaCheck } from "react-icons/fa6";
 import ButtonJoin from "./ButtonJoin";
-
+type Benefit = {
+  benefitname: string;
+};
 
 const PricingCard = ({
   title,
   price,
   paragraph,
+  benefits,
 }: {
   title: string;
   price: number;
   paragraph: string;
+  benefits: Benefit[];
 }) => {
   return (
     <div className="bg-accent hover:scale-105 duration-300 p-8 transition-all flex flex-col">
@@ -21,8 +26,14 @@ const PricingCard = ({
         </p>
       </div>
       <div className="flex">
-        
-
+        {benefits.map((item) => {
+          return (
+            <div className="">
+              <FaCheck className="text-2xl" />
+              <p className="text-balance">{item.benefitname}</p>
+            </div>
+          );
+        })}
       </div>
       <p className="text-white tracking-[2px] mt-8 ">{paragraph}</p>
 
