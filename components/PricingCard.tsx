@@ -1,5 +1,6 @@
 import ButtonJoin from "./ButtonJoin";
 
+
 const PricingCard = ({
   title,
   price,
@@ -18,6 +19,10 @@ const PricingCard = ({
           <strong className="text-4xl text-white">{price}</strong>
           <em className="self-end text-2xl">/month</em>
         </p>
+      </div>
+      <div className="flex">
+        
+
       </div>
       <p className="text-white tracking-[2px] mt-8 ">{paragraph}</p>
 
