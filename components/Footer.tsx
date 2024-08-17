@@ -1,12 +1,18 @@
 import Image from "next/image";
 import Link from "next/link";
 import { FaMapMarkerAlt, FaPhoneAlt } from "react-icons/fa";
-import { FaEnvelope, FaFacebook, FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa6";
+import {
+  FaEnvelope,
+  FaFacebook,
+  FaInstagram,
+  FaTwitter,
+  FaYoutube,
+} from "react-icons/fa6";
 
 const Footer = () => {
   return (
-    <footer className="bg-black pt-12 pb-12 mx-auto">
-      <div className="p-8">
+    <footer className="bg-black pt-10 pb-16 mx-auto">
+      <div className="p-16">
         <div className="text-white grid grid-cols-1 lg:grid-cols-4 gap-8">
           {/* logo */}
           <div className="flex flex-col">
@@ -91,7 +97,7 @@ const Footer = () => {
           <div className="flex flex-col">
             <h4 className="tracking-widest mb-4">Contact Us:</h4>
             <div className="flex gap-2 mb-4 ">
-              <FaMapMarkerAlt className="text-2xl"/>
+              <FaMapMarkerAlt className="text-2xl" />
               <p className="text-lg">Elysium 1 , FlavorTown</p>
             </div>
             <div className="flex gap-2 mb-4 ">
@@ -100,7 +106,12 @@ const Footer = () => {
             </div>
             <div className="flex gap-2 ">
               <FaEnvelope className="text-2xl" />
-              <a href="mailto:pulsefit_demo@gmail.com" className="text-lg">pulsefit_demo@gmail.com</a>
+              <a
+                href="mailto:pulsefit_demo@gmail.com"
+                className="text-lg hover:text-accent transition-all"
+              >
+                pulsefit_demo@gmail.com
+              </a>
             </div>
           </div>
         </div>
