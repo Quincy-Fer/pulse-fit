@@ -1,5 +1,6 @@
+
 const page = () => {
-  return <div>membership</div>;
+  return <div>lala</div>;
 };
 
 export default page;
