@@ -119,8 +119,6 @@ const Footer = () => {
           <p className="text-white mt-4">&copy; Copyright 2024 Quincy Fer</p>
         </div>
       </div>
-
-      {/* copyright section */}
     </footer>
   );
 };
