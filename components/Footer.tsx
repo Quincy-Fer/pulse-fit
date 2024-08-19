@@ -115,7 +115,11 @@ const Footer = () => {
             </div>
           </div>
         </div>
+        <div className="border-t border-white mt-4">
+          <p className="text-white mt-4">&copy; Copyright 2024 Quincy Fer</p>
+        </div>
       </div>
+
       {/* copyright section */}
     </footer>
   );
