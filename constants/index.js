@@ -336,6 +336,8 @@ export const SUBPAGE_ABOUT_LEADERSHIP = [
     paragraph:
       "Jordan founded PulseFit to blend innovation with community in fitness.\
      He directs overall strategy, ensuring growth while staying true to PulseFit's mission.",
+    image: "/images/jordan-matthews.jpg",
+    alt: "CEO IMAGE",
   },
   {
     key: "samantha",
@@ -344,6 +346,8 @@ export const SUBPAGE_ABOUT_LEADERSHIP = [
     paragraph:
       "Samantha oversees daily operations, ensuring member satisfaction and seamless facility\
      management. Her business management expertise keeps PulseFit running smoothly and efficiently.",
+    image: "/images/samantha-rivera.jpg",
+    alt: "Image Chief operating officer",
   },
   {
     key: "tyler",
@@ -352,6 +356,8 @@ export const SUBPAGE_ABOUT_LEADERSHIP = [
     paragraph:
       "Tyler drives PulseFit's brand strategy, managing marketing, social media,\
      and outreach to attract new members and keep the community engaged and inspired.",
+    image: "/images/tyler-harris.jpg",
+    alt: "Image Chief marketing officer",
   },
   {
     key: "rachel",
@@ -360,6 +366,8 @@ export const SUBPAGE_ABOUT_LEADERSHIP = [
     paragraph:
       "Rachel designs holistic wellness programs, integrating fitness, nutrition, and mental health.\
        Her initiatives support members' overall well-being, promoting a balanced, healthy lifestyle at PulseFit.",
+    image: "/images/rachel-wong.jpg",
+    alt: "Image Chief Wellness Officer",
   },
 ];
 
@@ -371,14 +379,18 @@ export const SUBPAGE_ABOUT_TRAINERS = [
     paragraph:
       "Liam's tailored strength training programs build serious endurance and power. His competitive sports background\
      drives members to achieve maximum results through intense workouts.",
+    image: "/images/liam-foster.jpg",
+    alt: "Strength Coach",
   },
   {
     key: "maya",
     name: "Maya Elena",
     title: "Cardio Specialist",
     paragraph:
-      "Maya's high-energy cardio sessions, from HIIT to spinning, are designed to boost heart health and burn\
+      "Maya's high-energy cardio sessions, from HIIT to crossfit, are designed to boost heart health and burn\
        calories. Her enthusiasm makes every workout motivating and effective.",
+    image: "/images/maya-elena.jpg",
+    alt: "Cardio Specialist",
   },
   {
     key: "ava",
@@ -387,6 +399,8 @@ export const SUBPAGE_ABOUT_TRAINERS = [
     paragraph:
       "Ava specializes in yoga and Pilates, helping members enhance flexibility, balance, and mental clarity through\
        mindful movement and challenging yet calming routines.",
+    image: "images/ava-chen.jpg",
+    alt: "Yoga Instructor",
   },
   {
     key: "ethan",
@@ -395,6 +409,8 @@ export const SUBPAGE_ABOUT_TRAINERS = [
     paragraph:
       "Ethan's dynamic workouts improve everyday strength and mobility. Focused on core stability and injury\
        prevention, his sessions enhance daily performance and overall fitness.",
+    image: "/images/ethan-roberts.jpg",
+    alt: "Functional training expert",
   },
   {
     key: "sophia",
