@@ -13,7 +13,7 @@ const Hero = () => {
             Where every <span className="text-accent">Pulse</span> powers your
             <span className="text-red-700"> Potential</span>
           </h1>
-          <p className="text-white text-lg max-w-[600px] mt-5 ">
+          <p className="text-white text-lg max-w-[600px] mt-5 leading-relaxed">
             {HERO.paragraph}
           </p>
           <div className="flex gap-20 mt-16">

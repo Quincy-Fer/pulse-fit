@@ -56,7 +56,7 @@ const Testimonials = () => {
                 </div>
                 <div className="flex flex-col justify-center p-4">
                   <FaQuoteLeft className="self-center mt-2 text-4xl text-accent" />
-                  <p className="text-gray-800 text-center p-2">{item.text}</p>
+                  <p className="text-gray-800 text-center p-2 leading-relaxed">{item.text}</p>
                   <p className="self-center mt-4 font-bold tracking-[3px]">
                     {item.name}
                   </p>

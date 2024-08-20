@@ -11,7 +11,7 @@ import {
 
 const Footer = () => {
   return (
-    <footer className="bg-black pt-10 pb-16 mx-auto">
+    <footer className="bg-black pt-10 pb-8 mx-auto">
       <div className="p-16">
         <div className="text-white grid grid-cols-1 lg:grid-cols-4 gap-8">
           {/* logo */}

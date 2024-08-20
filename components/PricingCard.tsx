@@ -30,7 +30,7 @@ const PricingCard = ({
           return (
             <div className="p-4">
               {" "}
-              <p className="text-white text-lg ">{item.benefitname}</p>
+              <p className="text-white text-lg leading-normal ">{item.benefitname}</p>
             </div>
           );
         })}

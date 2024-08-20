@@ -20,7 +20,7 @@ const About = () => {
       <div className="flex justify-evenly">
         <div className="z-10">
           <p className="tracking-[3px] font-bold mb-4 text-lg">{ABOUT.subheading}</p>
-          <p className="max-w-[600px] text-lg mt-8 ">{ABOUT.paragraph}</p>
+          <p className="max-w-[600px] text-lg mt-8 leading-relaxed ">{ABOUT.paragraph}</p>
           <ButtonJoin
             href="/about"
             text="Learn More"
