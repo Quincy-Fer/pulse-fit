@@ -3,6 +3,11 @@ import { PiVirtualRealityFill } from "react-icons/pi";
 import { GrLounge, GrYoga } from "react-icons/gr";
 import { FaLocationArrow } from "react-icons/fa6";
 import { IoMdQuote } from "react-icons/io";
+import { IoIosPeople } from "react-icons/io";
+import { MdOutlineAutoGraph } from "react-icons/md";
+import { RiCommunityLine } from "react-icons/ri";
+import { GiStairsGoal } from "react-icons/gi";
+import { IoFitnessOutline } from "react-icons/io5";
 
 export const NAVLINKS = [
   {
@@ -295,25 +300,30 @@ export const SUBPAGE_VALUES = [
     title: "Community",
     paragraph:
       "We believe in the power of community. PulseFit is a place where everyone is welcome, and everyone supports each other. We grow stronger together.",
+    icon: RiCommunityLine,
   },
   {
     title: "Innovation",
     paragraph:
       "We're always evolving. Whether it's the latest fitness technology or the newest training techniques, PulseFit stays ahead of the curve to offer our members the best.",
+    icon: MdOutlineAutoGraph,
   },
   {
     title: "Inclusion",
     paragraph:
       "Fitness is for everyone. We're committed to creating a space where all individuals, regardless of age, ability, or background, feel valued and motivated.",
+    icon: IoIosPeople,
   },
   {
     title: "Commitment",
     paragraph:
       "We're dedicated to helping our members reach their goals. Our team is passionate, professional, and ready to support you every step of the way.",
+    icon: GiStairsGoal,
   },
   {
     title: "Wellness",
     paragraph:
       "True fitness is about more than just working out; it's about overall well-being. PulseFit promotes a balanced approach to health, combining physical fitness with mental and emotional wellness.",
+    icon: IoFitnessOutline,
   },
 ];
