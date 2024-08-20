@@ -419,13 +419,17 @@ export const SUBPAGE_ABOUT_TRAINERS = [
     pararaph:
       "Sophia's high-intensity spinning classes, inspired by her competitive cycling background,\
     challenge endurance and push limits with motivating playlists and heart-pumping workouts.",
+    image: "/images/sophia-martinez.jpg",
+    alt: "Spinning Instructor",
   },
   {
     key: "jackson",
-    name: "Jackson Lee",
-    title: "Boxin Coach",
+    name: "Jackson Gray",
+    title: "Boxing Coach",
     paragraph:
       "Jackson's boxing classes emphasize technique, power, and endurance. His martial\
        arts expertise delivers intense workouts, building strength while teaching self-defense and relieving stress.",
+    image: "/images/jackson-gray",
+    alt: "Boxing Coach",
   },
 ];
