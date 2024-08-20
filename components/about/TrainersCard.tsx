@@ -15,7 +15,7 @@ const TrainersCard = ({
   title: string;
 }) => {
   return (
-    <div className="relative group  overflow-hidden rounded-lg shadow-lg">
+    <div className="relative group  overflow-hidden  shadow-lg">
       {/* Background Image */}
       <div className="w-[400px] h-[400px] relative border-2 border-black">
         <Image src={image} fill alt={alt} className="bg-cover bg-center" />
