@@ -295,7 +295,7 @@ export const SUBPAGE_ABOUT = {
          setting the standard for what a modern gym should be—innovative, inclusive, and community-driven.",
 };
 
-export const SUBPAGE_VALUES = [
+export const SUBPAGE_ABOUT_VALUES = [
   {
     title: "Community",
     paragraph:
@@ -325,5 +325,91 @@ export const SUBPAGE_VALUES = [
     paragraph:
       "True fitness is about more than just working out; it's about overall well-being. PulseFit promotes a balanced approach to health, combining physical fitness with mental and emotional wellness.",
     icon: IoFitnessOutline,
+  },
+];
+
+export const SUBPAGE_ABOUT_LEADERSHIP = [
+  {
+    key: "Jordan",
+    name: "Jordan Matthews",
+    title: "Founder & CEO",
+    paragraph:
+      "Jordan founded PulseFit to blend innovation with community in fitness.\
+     He directs overall strategy, ensuring growth while staying true to PulseFit's mission.",
+  },
+  {
+    key: "samantha",
+    name: "Samantha Rivera",
+    title: "Chief Operating Officer (COO)",
+    paragraph:
+      "Samantha oversees daily operations, ensuring member satisfaction and seamless facility\
+     management. Her business management expertise keeps PulseFit running smoothly and efficiently.",
+  },
+  {
+    key: "tyler",
+    name: "Tyler Harris",
+    title: "Chief Marketing Officer CMO",
+    paragraph:
+      "Tyler drives PulseFit's brand strategy, managing marketing, social media,\
+     and outreach to attract new members and keep the community engaged and inspired.",
+  },
+  {
+    key: "rachel",
+    name: "Rachel Wong",
+    title: "Chief Wellness Officer CWO",
+    paragraph:
+      "Rachel designs holistic wellness programs, integrating fitness, nutrition, and mental health.\
+       Her initiatives support members' overall well-being, promoting a balanced, healthy lifestyle at PulseFit.",
+  },
+];
+
+export const SUBPAGE_ABOUT_TRAINERS = [
+  {
+    key: "liam",
+    name: "Liam Foster",
+    title: "Strength and Conditioning Coach",
+    paragraph:
+      "Liam's tailored strength training programs build serious endurance and power. His competitive sports background\
+     drives members to achieve maximum results through intense workouts.",
+  },
+  {
+    key: "maya",
+    name: "Maya Elena",
+    title: "Cardio Specialist",
+    paragraph:
+      "Maya's high-energy cardio sessions, from HIIT to spinning, are designed to boost heart health and burn\
+       calories. Her enthusiasm makes every workout motivating and effective.",
+  },
+  {
+    key: "ava",
+    name: "Ava Chen",
+    title: "Yoga and Pilates Instructor",
+    paragraph:
+      "Ava specializes in yoga and Pilates, helping members enhance flexibility, balance, and mental clarity through\
+       mindful movement and challenging yet calming routines.",
+  },
+  {
+    key: "ethan",
+    name: "Ethan Roberts",
+    title: "Functional Training Expert",
+    paragraph:
+      "Ethan's dynamic workouts improve everyday strength and mobility. Focused on core stability and injury\
+       prevention, his sessions enhance daily performance and overall fitness.",
+  },
+  {
+    key: "sophia",
+    name: "Sophia Martinez",
+    title: "Spinning Instructor",
+    pararaph:
+      "Sophia's high-intensity spinning classes, inspired by her competitive cycling background,\
+    challenge endurance and push limits with motivating playlists and heart-pumping workouts.",
+  },
+  {
+    key: "jackson",
+    name: "Jackson Lee",
+    title: "Boxin Coach",
+    paragraph:
+      "Jackson's boxing classes emphasize technique, power, and endurance. His martial\
+       arts expertise delivers intense workouts, building strength while teaching self-defense and relieving stress.",
   },
 ];
