@@ -271,3 +271,49 @@ export const TESTIMONIALS = [
     alt: "image of ryan",
   },
 ];
+
+export const SUBPAGE_ABOUT = {
+  journey:
+    "PulseFit began as a vision to create a fitness community that's more than just a gym.\
+     Founded in 2023 by a group of passionate fitness enthusiasts, we wanted to break away \
+     from the typical gym experience and offer something fresh, modern, and dynamic. With\
+      a focus on innovation, community, and results, PulseFit quickly became the go-to spot\
+       for people looking to push their limits in a supportive environment. Our journey started\
+        with a small studio, and today, PulseFit is a thriving fitness hub, offering state-of-the-art\
+         facilities and a wide range of classes for every fitness level",
+  mission:
+    "At PulseFit, our mission is to empower individuals to unlock their full potential through fitness.\
+     We believe that every pulse counts, and we’re dedicated to providing the tools, guidance, and\
+      inspiration needed to achieve personal health and wellness goals. Our vision is to create a world\
+       where fitness is a cornerstone of everyday life, where people come together to challenge themselves\
+        and grow, both physically and mentally. We strive to be a leader in the fitness industry,\
+         setting the standard for what a modern gym should be—innovative, inclusive, and community-driven.",
+};
+
+export const SUBPAGE_VALUES = [
+  {
+    title: "Community",
+    paragraph:
+      "We believe in the power of community. PulseFit is a place where everyone is welcome, and everyone supports each other. We grow stronger together.",
+  },
+  {
+    title: "Innovation",
+    paragraph:
+      "We're always evolving. Whether it's the latest fitness technology or the newest training techniques, PulseFit stays ahead of the curve to offer our members the best.",
+  },
+  {
+    title: "Inclusion",
+    paragraph:
+      "Fitness is for everyone. We're committed to creating a space where all individuals, regardless of age, ability, or background, feel valued and motivated.",
+  },
+  {
+    title: "Commitment",
+    paragraph:
+      "We're dedicated to helping our members reach their goals. Our team is passionate, professional, and ready to support you every step of the way.",
+  },
+  {
+    title: "Wellness",
+    paragraph:
+      "True fitness is about more than just working out; it's about overall well-being. PulseFit promotes a balanced approach to health, combining physical fitness with mental and emotional wellness.",
+  },
+];
