@@ -3,9 +3,9 @@ import Image from "next/image";
 
 const Leadership = () => {
   return (
-    <section className="mx-auto p-16">
+    <section className="mx-auto pt-16">
       <h3 className="text-3xl mb-8 text-center">Our Leadership Team</h3>
-      <div className="grid grid-cols-2 gap-x-28 gap-y-16">
+      <div className="grid grid-cols-2 gap-x-14 gap-y-8">
         {SUBPAGE_ABOUT_LEADERSHIP.map((item) => {
           return (
             <div key={item.key}>
@@ -23,7 +23,6 @@ const Leadership = () => {
           );
         })}
       </div>
-      <div className="border-b-2 border-dashed border-accent mt-16"></div>
     </section>
   );
 };

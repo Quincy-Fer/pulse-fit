@@ -406,7 +406,7 @@ export const SUBPAGE_ABOUT_TRAINERS = [
     paragraph:
       "Ava specializes in yoga and Pilates, helping members enhance flexibility, balance, and mental clarity through\
        mindful movement and challenging yet calming routines.",
-    image: "images/ava-chen.jpg",
+    image: "/images/ava-chen.jpg",
     alt: "Yoga Instructor",
   },
   {
@@ -423,7 +423,7 @@ export const SUBPAGE_ABOUT_TRAINERS = [
     key: "sophia",
     name: "Sophia Martinez",
     title: "Spinning Instructor",
-    pararaph:
+    paragraph:
       "Sophia's high-intensity spinning classes, inspired by her competitive cycling background,\
     challenge endurance and push limits with motivating playlists and heart-pumping workouts.",
     image: "/images/sophia-martinez.jpg",
@@ -436,7 +436,7 @@ export const SUBPAGE_ABOUT_TRAINERS = [
     paragraph:
       "Jackson's boxing classes emphasize technique, power, and endurance. His martial\
        arts expertise delivers intense workouts, building strength while teaching self-defense and relieving stress.",
-    image: "/images/jackson-gray",
+    image: "/images/jackson-gray.jpg",
     alt: "Boxing Coach",
   },
 ];
