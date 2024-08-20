@@ -1,5 +1,26 @@
+import { SUBPAGE_ABOUT_VALUES } from "@/constants";
+
 const Values = () => {
-  return <div>Values</div>;
+  return (
+    <section className="mx-auto ">
+      <h3 className="text-3xl  text-center">What We Stand For</h3>
+
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 max-w-[1440px] pt-16 gap-10">
+        {SUBPAGE_ABOUT_VALUES.map((item) => {
+          return (
+            <div>
+              <div className="flex justify-center gap-10 ">
+                <item.icon className="text-3xl text-accent" />
+                <h4 className="text-xl">{item.title}</h4>
+              </div>
+
+              <p className="text-gray-800 mt-4">{item.paragraph}</p>
+            </div>
+          );
+        })}
+      </div>
+    </section>
+  );
 };
 
 export default Values;

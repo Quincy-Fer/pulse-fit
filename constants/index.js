@@ -8,6 +8,7 @@ import { MdOutlineAutoGraph } from "react-icons/md";
 import { RiCommunityLine } from "react-icons/ri";
 import { GiStairsGoal } from "react-icons/gi";
 import { IoFitnessOutline } from "react-icons/io5";
+import { IoMdFlame } from "react-icons/io";
 
 export const NAVLINKS = [
   {
@@ -325,6 +326,12 @@ export const SUBPAGE_ABOUT_VALUES = [
     paragraph:
       "True fitness is about more than just working out; it's about overall well-being. PulseFit promotes a balanced approach to health, combining physical fitness with mental and emotional wellness.",
     icon: IoFitnessOutline,
+  },
+  {
+    title: "Passion",
+    paragraph:
+      "Passion drives everything we do at PulseFit. We are passionate about fitness, wellness, and helping our members achieve their goals.",
+    icon: IoMdFlame,
   },
 ];
 
