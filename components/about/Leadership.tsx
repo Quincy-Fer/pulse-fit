@@ -9,18 +9,21 @@ const Leadership = () => {
         {SUBPAGE_ABOUT_LEADERSHIP.map((item) => {
           return (
             <div key={item.key}>
-              <div className="w-[500px] h-[500px] relative border-2 border-black">
+              <div className="w-[400px] h-[400px] relative border-2 border-black">
                 <Image src={item.image} fill alt={item.alt} className="" />
               </div>
-              <div className="flex gap-4 justify-between mt-2 ">
-                <h4 className="text-lg">{item.name}</h4>
-                <p className="tracking-[1px] text-base">{item.title}</p>
+              <div className="flex gap-2 justify-between mt-2 ">
+                <h4 className="text-base">{item.name}</h4>
+                <p className=" text-base">{item.title}</p>
               </div>
-              <p className="max-w-[500px] mt-2 text-gray-800">{item.paragraph}</p>
+              <p className="max-w-[400px] mt-2 text-gray-800">
+                {item.paragraph}
+              </p>
             </div>
           );
         })}
       </div>
+      <div className="border-b-2 border-dashed border-accent mt-16"></div>
     </section>
   );
 };

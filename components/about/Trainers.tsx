@@ -1,5 +1,5 @@
 const Trainers = () => {
-  return <div>Trainers</div>;
+  return <section className="mx-auto"></section>;
 };
 
 export default Trainers;
