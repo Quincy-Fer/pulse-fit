@@ -31,6 +31,7 @@ const Calendar = () => {
   return (
     <div className="p-16">
       <h3 className="text-3xl mb-6">Class Calendar</h3>
+      <p className="uppercase tracking-[1px] text-gray-700 mb-4">Find out when your favorite class starts</p>
       <div className="flex mb-8">
         <input
           type="text"
@@ -63,7 +64,7 @@ const Calendar = () => {
                 </div>
               ))
             ) : (
-              <p className="text-sm text-gray-600">No classes</p>
+              <p className="text-base text-center text-white">No classes!</p>
             )}
           </div>
         ))}
