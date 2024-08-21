@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Overview = () => {
   return (
-    <section className="mx-auto p-16">
+    <section className="mx-auto px-16 pt-16">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-36">
         <div className="flex flex-col gap-6">
           <h3 className="text-3xl">{SUBPAGE_CLASSES_INTRO.heading}</h3>
@@ -20,6 +20,7 @@ const Overview = () => {
           />
         </div>
       </div>
+       <div className="border-b-2 border-dashed border-accent mt-16"></div>
     </section>
   );
 };

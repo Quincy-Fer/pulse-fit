@@ -51,15 +51,15 @@ const Calendar = () => {
 
         {["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"].map((day) => (
           <div key={day} className="p-4  bg-red-700">
-            <h3 className="text-lg text-white font-semibold">{day}</h3>
+            <h3 className="text-lg text-white font-semibold text-center mb-4">{day}</h3>
             {groupedClasses[day].length ? (
               groupedClasses[day].map((classItem) => (
                 <div
                   key={classItem.id}
                   className="p-2 border  bg-gray-100 mb-2"
                 >
-                  <h4 className="text-md font-semibold">{classItem.name}</h4>
-                  <p className="text-sm">{classItem.time}</p>
+                  <h4 className="text-md font-semibold mb-2">{classItem.name}</h4>
+                  <p className="text-sm pb-2">{classItem.time}</p>
                 </div>
               ))
             ) : (
