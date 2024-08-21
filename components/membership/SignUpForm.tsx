@@ -3,7 +3,7 @@ import React from "react";
 const SignUpForm = () => {
   return (
     <div className="mx-auto p-6 bg-white shadow-lg rounded-lg">
-      <h2 className="text-2xl font-bold mb-4">Sign Up for PulseFit</h2>
+      <h2 className="text-3xl font-bold mb-4">Sign Up for PulseFit</h2>
       <form action="/submit" method="POST" className="grid grid-cols-2 gap-4">
         {/* Personal Information */}
 
@@ -171,7 +171,6 @@ const SignUpForm = () => {
         </div>
 
         {/* Emergency Contact */}
-        
 
         {/* Medical Conditions */}
         <div className="mb-4">
@@ -208,7 +207,7 @@ const SignUpForm = () => {
           <div>
             <button
               type="submit"
-              className=" py-2 px-4 bg-red-700 text-white font-bold  shadow-sm transition-all
+              className=" py-4 px-8 bg-red-700 text-white font-bold text-lg  shadow-sm transition-all
              hover:bg-black focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-700"
             >
               Sign Up
