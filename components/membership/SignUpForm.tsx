@@ -2,7 +2,7 @@ import React from "react";
 
 const SignUpForm = () => {
   return (
-    <div className="mx-auto p-6 bg-white shadow-lg rounded-lg">
+    <div className="mx-auto p-6 bg-white shadow-lg  border-t border-black/50">
       <h2 className="text-3xl font-bold mb-4">Sign Up for PulseFit</h2>
       <form action="" method="POST" className="grid grid-cols-2 gap-4">
         {/* Personal Information */}
@@ -11,7 +11,7 @@ const SignUpForm = () => {
         <div className="mb-4 flex-grow">
           <label
             htmlFor="fullName"
-            className="block text-sm font-medium text-gray-700"
+            className="block text-base font-medium text-gray-800"
           >
             Full Name
           </label>
@@ -27,7 +27,7 @@ const SignUpForm = () => {
         <div className="mb-4">
           <label
             htmlFor="email"
-            className="block text-sm font-medium text-gray-700"
+            className="block text-base font-medium text-gray-800"
           >
             Email Address
           </label>
@@ -43,7 +43,7 @@ const SignUpForm = () => {
         <div className="mb-4">
           <label
             htmlFor="phone"
-            className="block text-sm font-medium text-gray-700"
+            className="block text-base font-medium text-gray-800"
           >
             Phone Number
           </label>
@@ -60,7 +60,7 @@ const SignUpForm = () => {
         <div className="mb-4">
           <label
             htmlFor="dob"
-            className="block text-sm font-medium text-gray-700"
+            className="block text-base font-medium text-gray-800"
           >
             Date of Birth
           </label>
@@ -77,7 +77,7 @@ const SignUpForm = () => {
         <div className="mb-4">
           <label
             htmlFor="membership"
-            className="block text-sm font-medium text-gray-700"
+            className="block text-base font-medium text-gray-800"
           >
             Preferred Membership Tier
           </label>
@@ -92,11 +92,11 @@ const SignUpForm = () => {
             <option value="elite">Ultimate Pulse</option>
           </select>
         </div>
-
+        {/* payment plan */}
         <div className="mb-4">
           <label
             htmlFor="paymentPlan"
-            className="block text-sm font-medium text-gray-700"
+            className="block text-base font-medium text-gray-800"
           >
             Preferred Payment Plan
           </label>
@@ -116,7 +116,7 @@ const SignUpForm = () => {
         <div className="mb-4">
           <label
             htmlFor="address"
-            className="block text-sm font-medium text-gray-700"
+            className="block text-base font-medium text-gray-800"
           >
             Address
           </label>
@@ -136,7 +136,7 @@ const SignUpForm = () => {
             name="city"
             required
             placeholder="City"
-            className="mt-6 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+            className="mt-7 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
           />
         </div>
         <div className="mb-4">
@@ -170,13 +170,11 @@ const SignUpForm = () => {
           />
         </div>
 
-        {/* Emergency Contact */}
-
         {/* Medical Conditions */}
         <div className="mb-4">
           <label
             htmlFor="medicalConditions"
-            className="block text-sm font-medium text-gray-700"
+            className="block text-base font-medium text-gray-800"
           >
             Medical Conditions or Special Requirements
           </label>
