@@ -11,17 +11,14 @@ const Overview = () => {
             {SUBPAGE_CLASSES_INTRO.paragraph}
           </p>
         </div>
-        <div className="relative">
-          
-          <div className="absolute inset-0 bg-black bg-opacity-15 flex items-center justify-center">
-            <Image
-              src="/images/classes-intro.jpg"
-              width={580}
-              height={500}
-              alt="Smiling Girl"
-              className="border border-black"
-            />
-          </div>
+        <div className="border border-black">
+          <Image
+            src="/images/classes-intro.jpg"
+            width={580}
+            height={500}
+            alt="Smiling Girl"
+            className=""
+          />
         </div>
       </div>
     </section>
