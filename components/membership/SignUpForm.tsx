@@ -4,9 +4,11 @@ const SignUpForm = () => {
   return (
     <div className="mx-auto p-6 bg-white shadow-lg rounded-lg">
       <h2 className="text-2xl font-bold mb-4">Sign Up for PulseFit</h2>
-      <form action="/submit" method="POST">
+      <form action="/submit" method="POST" className="grid grid-cols-2 gap-4">
         {/* Personal Information */}
-        <div className="mb-4">
+
+        {/* name */}
+        <div className="mb-4 flex-grow">
           <label
             htmlFor="fullName"
             className="block text-sm font-medium text-gray-700"
@@ -18,9 +20,10 @@ const SignUpForm = () => {
             id="fullName"
             name="fullName"
             required
-            className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+            className="mt-1 block w-full  px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
           />
         </div>
+        {/* mail */}
         <div className="mb-4">
           <label
             htmlFor="email"
@@ -33,9 +36,10 @@ const SignUpForm = () => {
             id="email"
             name="email"
             required
-            className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+            className="mt-1 block w-full  px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
           />
         </div>
+        {/* phone */}
         <div className="mb-4">
           <label
             htmlFor="phone"
@@ -48,9 +52,11 @@ const SignUpForm = () => {
             id="phone"
             name="phone"
             required
-            className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+            className="mt-1 block w-full  px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
           />
         </div>
+
+        {/* birth */}
         <div className="mb-4">
           <label
             htmlFor="dob"
@@ -207,37 +213,36 @@ const SignUpForm = () => {
           <textarea
             id="medicalConditions"
             name="medicalConditions"
-          
-            className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+            className="resize-none mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
           ></textarea>
         </div>
 
         {/* Terms and Conditions */}
-        <div className="mb-4">
+        <div className="mb-4 flex gap-4 ">
           <label className="inline-flex items-center">
             <input
               type="checkbox"
               name="terms"
               required
-              className="form-checkbox h-4 w-4 text-indigo-600 transition duration-150 ease-in-out"
+              className=" h-4 w-4 accent-red-700 transition duration-150 ease-in-out"
             />
             <span className="ml-2 text-sm text-gray-600">
               I agree to the{" "}
-              <a href="#" className="text-indigo-600 hover:text-indigo-800">
+              <a href="#" className="text-blue-700 hover:text-blue-900">
                 terms and conditions
               </a>
             </span>
           </label>
-        </div>
-
-        {/* Submit Button */}
-        <div>
-          <button
-            type="submit"
-            className="w-full py-2 px-4 bg-indigo-600 text-white font-bold rounded-md shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
-          >
-            Sign Up
-          </button>
+          {/* Submit Button */}
+          <div>
+            <button
+              type="submit"
+              className=" py-2 px-4 bg-red-700 text-white font-bold  shadow-sm transition-all
+             hover:bg-black focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-700"
+            >
+              Sign Up
+            </button>
+          </div>
         </div>
       </form>
     </div>
