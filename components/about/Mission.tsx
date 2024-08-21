@@ -5,7 +5,7 @@ const Mission = () => {
   return (
     <section className="mx-auto pb-16  ">
       <div className="flex gap-20 ">
-        <div>
+        <div className="border border-black">
           <Image
             src="/images/mission.jpg"
             width={500}
