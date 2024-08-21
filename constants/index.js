@@ -440,3 +440,17 @@ export const SUBPAGE_ABOUT_TRAINERS = [
     alt: "Boxing Coach",
   },
 ];
+
+export const SUBPAGE_CLASSES_INTRO = {
+  heading: "Find Your Fit: Explore Our Dynamic Classes",
+  paragraph:
+    "At PulseFit, our classes are designed to push your limits, build strength,\
+     and keep you motivated on your fitness journey. Whether you're looking to break\
+      a sweat in a high-energy cardio session, build muscle with strength training,\
+       or find balance with yoga, we've got something for everyone. Our diverse range\
+        of classes ensures that you can find the perfect workout to meet your goals,\
+         regardless of your fitness level. Led by expert instructors who bring energy,\
+          passion, and expertise to every session, each class is more than just a\
+           workout—it's an experience. Explore our offerings and find the class\
+            that ignites your passion for fitness.",
+};

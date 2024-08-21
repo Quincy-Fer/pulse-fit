@@ -29,7 +29,7 @@ const About = () => {
           />
         </div>
         {/* image */}
-        <div className="z-20">
+        <div className="z-20 border-2 border-black">
           <Image
             src="/images/features.jpg"
             alt="Guy working out"

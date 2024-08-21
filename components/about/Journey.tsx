@@ -12,7 +12,7 @@ const Journey = () => {
             {SUBPAGE_ABOUT.journey}
           </p>
         </div>
-        <div>
+        <div className="border border-black">
           <Image
             src="/images/journey.jpg"
             width={500}

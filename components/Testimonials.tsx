@@ -51,7 +51,7 @@ const Testimonials = () => {
                   <img
                     src={item.image}
                     alt={item.alt}
-                    className="bg-cover w-full h-full  rounded-full"
+                    className="bg-cover w-full h-full border border-gray-500 rounded-full"
                   />
                 </div>
                 <div className="flex flex-col justify-center p-4">
