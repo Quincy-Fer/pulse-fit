@@ -88,8 +88,8 @@ const SignUpForm = () => {
             className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
           >
             <option value="essential">Essential Pulse</option>
-            <option value="plus">Pulse Plus</option>
-            <option value="elite">Pulse Elite</option>
+            <option value="plus">Enhanced Pulse</option>
+            <option value="elite">Ultimate Pulse</option>
           </select>
         </div>
 
@@ -136,7 +136,7 @@ const SignUpForm = () => {
             name="city"
             required
             placeholder="City"
-            className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+            className="mt-6 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
           />
         </div>
         <div className="mb-4">
@@ -171,36 +171,7 @@ const SignUpForm = () => {
         </div>
 
         {/* Emergency Contact */}
-        <div className="mb-4">
-          <label
-            htmlFor="emergencyContact"
-            className="block text-sm font-medium text-gray-700"
-          >
-            Emergency Contact Name
-          </label>
-          <input
-            type="text"
-            id="emergencyContact"
-            name="emergencyContact"
-            required
-            className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
-          />
-        </div>
-        <div className="mb-4">
-          <label
-            htmlFor="emergencyPhone"
-            className="block text-sm font-medium text-gray-700"
-          >
-            Emergency Contact Phone Number
-          </label>
-          <input
-            type="tel"
-            id="emergencyPhone"
-            name="emergencyPhone"
-            required
-            className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
-          />
-        </div>
+        
 
         {/* Medical Conditions */}
         <div className="mb-4">
