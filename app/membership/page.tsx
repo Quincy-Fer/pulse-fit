@@ -10,7 +10,9 @@ const page = () => {
       <div className="flex flex-col mx-auto justify-center ">
         <MembershipTable />
       </div>
-      <SignUpForm />
+      <div className="mb-4 px-8 mx-auto">
+        <SignUpForm />
+      </div>
     </section>
   );
 };
