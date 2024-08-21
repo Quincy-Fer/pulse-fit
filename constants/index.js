@@ -748,7 +748,7 @@ export const classesData = [
   },
 ];
 
-export const SUBPAGE_CLASSES_DESCRIPTONS = [
+export const SUBPAGE_CLASSES_DESCRIPTIONS = [
   {
     title: "Strength And Conditioning",
     subtitle1: "Strength Fusion (Liam Foster)",
@@ -757,6 +757,8 @@ export const SUBPAGE_CLASSES_DESCRIPTONS = [
       "Strengthen your entire body with Strength Circuit, a full-body workout designed to build muscle and enhance overall strength. Led by Liam, this class combines resistance training with functional movements, delivering a challenging session that drives real results. Whether you're lifting weights or using your own bodyweight, you'll experience a variety of exercises that target multiple muscle groups, ensuring a balanced and effective workout.",
     paragraph2:
       "Dive into the world of powerlifting with Powerlifting Basics. This class, taught by Liam, focuses on the essential lifts—squats, deadlifts, and bench presses—emphasizing proper form and technique. Perfect for both beginners and seasoned lifters, this class breaks down each movement, helping you build strength safely and efficiently. Whether you're looking to perfect your technique or increase your lifting capacity, Powerlifting Basics will help you lay a solid foundation.",
+    image: "/images/strength-class.jpg",
+    alt: "Strength Class",
   },
   {
     title: "Cardio Workouts",
@@ -766,6 +768,8 @@ export const SUBPAGE_CLASSES_DESCRIPTONS = [
       "Get ready to torch calories and boost your endurance with HIIT Blast Maya leads this high-intensity interval training class, where you'll alternate between intense bursts of activity and brief recovery periods. Designed for maximum calorie burn, HIIT Blast is perfect for anyone looking to push their limits, improve cardiovascular fitness, and achieve rapid results. Each session is a fast-paced challenge that leaves you feeling energized and accomplished.",
     paragraph2:
       "Take your running to the next level with Endurance Run. This treadmill-based class, led by Maya, focuses on improving your stamina and cardiovascular fitness through a mix of speed intervals and steady-state cardio. Whether you're training for a race or just looking to enhance your endurance, this class provides a structured and motivating environment to help you achieve your running goals.",
+    image: "/images/hiit-class.jpg",
+    alt: "High intensity interval class",
   },
   {
     title: "Yoga and Pilates",
@@ -775,6 +779,8 @@ export const SUBPAGE_CLASSES_DESCRIPTONS = [
       "Experience the harmony of movement and breath in Vinyasa Flow. Ava  guides you through a dynamic sequence of yoga poses that flow seamlessly from one to the next, creating a moving meditation that enhances flexibility, balance, and mental clarity. Whether you're a seasoned yogi or new to the practice, Vinyasa Flow offers a rejuvenating experience that strengthens both body and mind.",
     paragraph2:
       "Strengthen your core and improve your posture with Core Pilates. Led by Ava Chen, this class emphasizes controlled movements and deep muscle engagement, focusing on the muscles that support your spine and stabilize your body. Perfect for those looking to build a strong, stable core, Core Pilates offers a challenging yet accessible workout that enhances overall strength and flexibility.",
+    image: "/images/yoga-pilates.jpg",
+    alt: "Yoga Class",
   },
   {
     title: "Functional Training",
@@ -784,6 +790,8 @@ export const SUBPAGE_CLASSES_DESCRIPTONS = [
       "Improve your everyday strength and mobility with Functional Fit. Ethan Roberts leads this dynamic class that incorporates exercises mimicking daily movements, ensuring you’re fit for real-life activities. Functional Fit emphasizes core stability, coordination, and flexibility, making it ideal for those seeking to enhance their overall physical performance and reduce the risk of injury in daily life.",
     paragraph2:
       "Focus on building a strong foundation with Core & Stability. In this class, Ethan Roberts guides you through exercises that target your core muscles while improving balance and body control. Using a combination of bodyweight exercises, resistance training, and stability work, Core & Stability is perfect for anyone looking to enhance their overall body control and prevent injuries.",
+    image: "/images/functional-class.jpg",
+    alt: "Functional Class",
   },
   {
     title: "Spinning Classes",
@@ -793,6 +801,8 @@ export const SUBPAGE_CLASSES_DESCRIPTONS = [
       "Feel the adrenaline rush in Pulse Ride, a high-energy cycling class led by Sophia Martinez. This class challenges you with varied pacing, hill climbs, and sprints, all set to a motivating playlist that keeps you pushing forward. Pulse Ride is perfect for anyone looking to improve cardiovascular endurance, burn calories, and have fun doing it.",
     paragraph2:
       "Push your limits with Endurance Spin, a cycling class designed to build cardiovascular fitness and stamina. Led by Sophia Martinez, this longer session focuses on steady-state rides and interval training, offering a challenging yet rewarding experience for those looking to elevate their endurance. Perfect for cycling enthusiasts and anyone wanting to take their fitness to the next level.",
+    image: "/images/cycling-gym.jpg",
+    alt: "cycling class",
   },
   {
     title: "Fighting Classes",
@@ -802,5 +812,7 @@ export const SUBPAGE_CLASSES_DESCRIPTONS = [
       "Learn the art of boxing with Boxing Fundamentals. Jackson Lee teaches you the basics, from proper stance and punches to footwork, all while providing a full-body workout. This class focuses on technique and conditioning, making it ideal for beginners and those looking to refine their skills. With a focus on both fitness and self-defense, Boxing Fundamentals offers a comprehensive introduction to the sport.",
     paragraph2:
       "Combine the intensity of martial arts with strength and conditioning in Martial Arts Conditioning. Jackson Lee leads this high-energy class that blends martial arts drills with exercises designed to improve your overall physical fitness and self-defense skills. Whether you're looking to build strength, increase agility, or learn practical techniques, this class offers a challenging and empowering workout.",
+    image: "/images/fighting-class.jpg",
+    alt: "fighting class",
   },
 ];
