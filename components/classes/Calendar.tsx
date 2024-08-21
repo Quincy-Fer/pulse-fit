@@ -1,4 +1,4 @@
-'use client';
+"use client";
 
 import { classesData } from "@/constants";
 import { useState } from "react";
@@ -19,8 +19,8 @@ const Calendar = () => {
   const groupByDay = (classes: typeof classesData) => {
     const grouped: Record<string, typeof classesData> = {};
 
-    ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"].forEach(day => {
-      grouped[day] = classes.filter(classItem => classItem.day === day);
+    ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"].forEach((day) => {
+      grouped[day] = classes.filter((classItem) => classItem.day === day);
     });
 
     return grouped;
@@ -31,7 +31,9 @@ const Calendar = () => {
   return (
     <div className="p-16">
       <h3 className="text-3xl mb-6">Class Calendar</h3>
-      <p className="uppercase tracking-[1px] text-gray-700 mb-4">Find out when your favorite class starts</p>
+      <p className="uppercase tracking-[1px] text-gray-700 mb-4">
+        Find out when your favorite class starts
+      </p>
       <div className="flex mb-8">
         <input
           type="text"
@@ -48,18 +50,20 @@ const Calendar = () => {
         </button>
       </div>
       <div className="grid grid-cols-7 ">
-        
-
         {["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"].map((day) => (
           <div key={day} className="p-4  bg-red-700">
-            <h3 className="text-lg text-white font-semibold text-center mb-4">{day}</h3>
+            <h3 className="text-lg text-white font-semibold text-center mb-4">
+              {day}
+            </h3>
             {groupedClasses[day].length ? (
               groupedClasses[day].map((classItem) => (
                 <div
                   key={classItem.id}
                   className="p-2 border  bg-gray-100 mb-2"
                 >
-                  <h4 className="text-md font-semibold mb-2">{classItem.name}</h4>
+                  <h4 className="text-md font-semibold mb-2">
+                    {classItem.name}
+                  </h4>
                   <p className="text-sm pb-2">{classItem.time}</p>
                 </div>
               ))

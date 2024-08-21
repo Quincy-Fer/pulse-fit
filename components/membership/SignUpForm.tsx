@@ -4,7 +4,7 @@ const SignUpForm = () => {
   return (
     <div className="mx-auto p-6 bg-white shadow-lg rounded-lg">
       <h2 className="text-3xl font-bold mb-4">Sign Up for PulseFit</h2>
-      <form action="/submit" method="POST" className="grid grid-cols-2 gap-4">
+      <form action="" method="POST" className="grid grid-cols-2 gap-4">
         {/* Personal Information */}
 
         {/* name */}

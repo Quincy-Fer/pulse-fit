@@ -15,8 +15,8 @@ const Pricing = () => {
         </div>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-10 p-16">
-        {PRICING.map((item) => {
-          return <PricingCard {...item} />;
+        {PRICING.map((item, index) => {
+          return <PricingCard {...item} key={index} />;
         })}
       </div>
     </section>
