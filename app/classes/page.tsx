@@ -10,8 +10,8 @@ const page = () => {
       </div>
       <div className="flex flex-col mx-auto justify-center max-w-[1440px]">
         <Overview />
-        <Calendar />
         <Descriptions />
+        <Calendar />
       </div>
     </section>
   );
