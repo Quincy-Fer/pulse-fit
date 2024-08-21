@@ -11,11 +11,10 @@ const Overview = () => {
             {SUBPAGE_CLASSES_INTRO.paragraph}
           </p>
         </div>
-        <div className="border border-black">
+        <div className=" relative border border-black w-[600px] h-[400px]">
           <Image
             src="/images/classes-intro.jpg"
-            width={580}
-            height={500}
+            fill={true}
             alt="Smiling Girl"
             className=""
           />
