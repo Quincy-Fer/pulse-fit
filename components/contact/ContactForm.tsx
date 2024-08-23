@@ -67,7 +67,7 @@ const ContactForm = () => {
           ></textarea>
         </div>
 
-        <div className="text-center">
+        <div className="">
           <button
             type="button"
             className="px-6 py-2 bg-accent text-white font-semibold hover:bg-black transition-all"
