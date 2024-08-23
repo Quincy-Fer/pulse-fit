@@ -7,13 +7,13 @@ import Footer from "@/components/Footer";
 const montserrat = Montserrat({
   subsets: ["latin"],
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
-  variable: '--font-montserrat'
+  variable: "--font-montserrat",
 });
 
 const lato = Lato({
   subsets: ["latin"],
-  weight: ['100','300','400','700','900'],
-  variable: '--font-lato'
+  weight: ["100", "300", "400", "700", "900"],
+  variable: "--font-lato",
 });
 
 export const metadata: Metadata = {
@@ -28,7 +28,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${montserrat.variable} ${lato.variable} w-full max-w-[1440x] mx-auto`}>
+      <body
+        className={`${montserrat.variable} ${lato.variable} w-full max-w-[1440x] mx-auto`}
+      >
         <Header /> {children} <Footer />
       </body>
     </html>
