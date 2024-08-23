@@ -14,7 +14,7 @@ const Values = () => {
                 <h4 className="text-xl">{item.title}</h4>
               </div>
 
-              <p className="text-gray-800 mt-4">{item.paragraph}</p>
+              <p className="text-gray-700 mt-4">{item.paragraph}</p>
             </div>
           );
         })}

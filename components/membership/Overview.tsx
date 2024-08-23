@@ -5,13 +5,13 @@ const Overview = () => {
     <section className="mx-auto my-10 px-8 ">
       <div className="flex flex-col mb-8 ">
         <h3 className="text-start text-3xl "> Join the PulseFit Community</h3>
-        <p className="tracking-[1px]">
+        <p className="tracking-[1px] text-gray-800">
           Affordable Options for Individual, Family, and Group Memberships
         </p>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <div>
-          <p className="max-w-[600px] leading-relaxed mb-4">
+          <p className="max-w-[600px] leading-relaxed mb-4 text-gray-800">
             At PulseFit, we offer three distinct membership tiers designed to
             fit your unique fitness goals and lifestyle. Whether you're just
             beginning your fitness journey or looking to take your training to
@@ -21,7 +21,7 @@ const Overview = () => {
             experience truly exceptional.
           </p>
           <ul>
-            <li className="max-w-[600px] leading-relaxed mb-4">
+            <li className="max-w-[600px] leading-relaxed mb-4 text-gray-800">
               <span className="text-accent font-bold uppercase underline underline-offset-4">
                 Essential Pulse{" "}
               </span>
@@ -30,7 +30,7 @@ const Overview = () => {
               and a selection of virtual and in-person classes to keep you
               active.
             </li>
-            <li className="max-w-[600px] leading-relaxed mb-4">
+            <li className="max-w-[600px] leading-relaxed mb-4 text-gray-800">
               <span className="text-accent font-bold uppercase underline underline-offset-4">
                 Enhanced Pulse
               </span>
@@ -38,7 +38,7 @@ const Overview = () => {
               Offers enhanced features like 24/7 gym access, additional group
               classes, and premium amenities to elevate your fitness routine.
             </li>
-            <li className="max-w-[600px] leading-relaxed mb-4">
+            <li className="max-w-[600px] leading-relaxed mb-4 text-gray-800">
               <span className="text-accent font-bold uppercase underline underline-offset-4">
                 Ultimate Pulse
               </span>
