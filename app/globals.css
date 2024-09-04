@@ -2,6 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@media (max-width: 1024px) {
+  html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+}
+
+
 @layer base {
   body {
     @apply font-lato;
