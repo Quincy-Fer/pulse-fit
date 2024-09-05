@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from "react";
+import { usePathname } from "next/navigation"; // Import usePathname
 import Image from "next/image";
 import Link from "next/link";
 import { NAVLINKS } from "@/constants/index";
@@ -8,6 +9,7 @@ import ButtonJoin from "./ButtonJoin";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const pathname = usePathname(); // Get the current pathname
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
@@ -55,7 +57,9 @@ const Header = () => {
           <Link
             key={item.key}
             href={item.href}
-            className="text-white uppercase hover:text-accent transition-all font-bold text-base"
+            className={`text-white uppercase hover:text-accent transition-all font-bold text-base ${
+              pathname === item.href ? 'text-red-600' : ''
+            }`}
           >
             {item.label}
           </Link>
@@ -79,7 +83,9 @@ const Header = () => {
               <Link
                 key={item.key}
                 href={item.href}
-                className="text-white uppercase hover:text-accent transition-all font-bold text-base py-4"
+                className={`text-white uppercase hover:text-accent transition-all font-bold text-base py-4 ${
+                  pathname === item.href ? 'text-red-600' : ''
+                }`}
                 onClick={toggleMenu} // Close menu after click
               >
                 {item.label}
@@ -106,3 +112,4 @@ const Header = () => {
 };
 
 export default Header;
+
