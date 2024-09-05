@@ -7,7 +7,7 @@ const Features = () => {
   return (
     <section className="w-full bg-black mx-auto">
       <div className="p-10 flex flex-col justify-center">
-        <h2 className="text-white text-5xl tracking-tight text-center leading-tight">
+        <h2 className="text-white text-3xl lg:text-5xl tracking-tight text-center leading-tight">
           Your Progress, Our Priority
         </h2>
         <p className="text-white tracking-[4px] text-center mt-4">Everything You Need to Reach New Heights</p>

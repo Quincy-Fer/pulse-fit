@@ -25,8 +25,8 @@ const ClassCard = ({
       <div className="bg-black/60 absolute w-full h-full top-0 z-10 "></div>
       <Image src={image} fill={true} className="object-cover" alt={alt} />
       <div className="z-10 flex flex-col justify-around ">
-        <h4 className="text-white text-center text-4xl ">{title}</h4>
-        <p className="text-white max-w-[600px] text-lg  mt-12 text-center tracking-[3px]">
+        <h4 className="text-white text-center text-2xl lg:text-4xl ">{title}</h4>
+        <p className="text-white  lg:max-w-[600px] text-sm lg:text-lg mt-6  lg:mt-12 text-center tracking-[3px]">
           {paragraph}
         </p>
 
