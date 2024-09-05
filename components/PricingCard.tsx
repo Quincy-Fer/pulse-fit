@@ -26,11 +26,12 @@ const PricingCard = ({
         </p>
       </div>
       <div className="flex">
-        {benefits.map((item) => {
+        {benefits.map((item, index) => {
           return (
-            <div className="p-4">
-              {" "}
-              <p className="text-white text-lg leading-normal ">{item.benefitname}</p>
+            <div className="p-4" key={index}>
+              <p className="text-white text-lg leading-normal ">
+                {item.benefitname}
+              </p>
             </div>
           );
         })}

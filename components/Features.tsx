@@ -13,12 +13,12 @@ const Features = () => {
         <p className="text-white tracking-[4px] text-center mt-4">Everything You Need to Reach New Heights</p>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 p-10 gap-12 pb-14  ">
-        {FEATURES.map((item) => {
+        {FEATURES.map((item,index) => {
           return (
             <FeatureCard
               title={item.title}
               paragraph={item.paragraph}
-              key={item.key}
+              key={index}
               icon={item.icon}
             />
           );

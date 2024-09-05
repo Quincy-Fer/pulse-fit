@@ -14,15 +14,15 @@ const Classes = () => {
           Explore a variety of classes designed to challenge and inspire you
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          {CLASSES.map((item) => {
+          {CLASSES.map((item, index) => {
             return (
               <ClassCard
-                key={item.key}
+                key={index}
                 title={item.title}
                 paragraph={item.paragraph}
                 icon={item.icon}
                 image={item.image}
-                alt= {item.alt}
+                alt={item.alt}
               />
             );
           })}
