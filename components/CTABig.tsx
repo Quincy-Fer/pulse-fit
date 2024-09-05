@@ -8,7 +8,7 @@ const CTABig = () => {
         <h2 className="text-center text-5xl text-white mb-10">
           Get Fit, Get Pulsing!
         </h2>
-        <div className=" grid grid-cols-2 gap-12">
+        <div className=" grid lg:grid-cols-2 gap-12">
           <div>
             <Image
               src="/images/membership.jpg"
