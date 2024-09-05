@@ -12,24 +12,28 @@ const About = () => {
       />
       {/* header and padding */}
       <div className="p-8 w-full flex justify-center">
-        <h2 className="text-5xl tracking-tight max-w-[800px] text-center leading-tight font-bold mb-14 z-10">
+        <h2 className="text-3xl lg:text-5xl tracking-tight max-w-[800px] text-center leading-tight font-bold lg:mb-14 z-10">
           {ABOUT.header}
         </h2>
       </div>
       {/* text and button */}
-      <div className="flex justify-evenly">
+      <div className="flex lg:justify-evenly justify-center">
         <div className="z-10">
-          <p className="tracking-[3px] font-bold mb-4 text-lg">{ABOUT.subheading}</p>
-          <p className="max-w-[600px] text-lg mt-8 leading-relaxed ">{ABOUT.paragraph}</p>
+          <p className="tracking-[3px] font-bold mb-4 text-lg">
+            {ABOUT.subheading}
+          </p>
+          <p className="max-w-[600px] text-lg mt-8 leading-relaxed ">
+            {ABOUT.paragraph}
+          </p>
           <ButtonJoin
             href="/about"
             text="Learn More"
-            containerStyles="uppercase mt-16 font-bold bg-accent px-8 py-4 text-white hover:bg-black hover:text-white
+            containerStyles="uppercase mt-10 lg:mt-16 font-bold bg-accent px-8 py-4 text-white hover:bg-black hover:text-white
            transition-all text-lg "
           />
         </div>
         {/* image */}
-        <div className="z-20 border-2 border-black">
+        <div className="hidden lg:block z-20 border-2 border-black">
           <Image
             src="/images/features.jpg"
             alt="Guy working out"

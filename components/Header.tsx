@@ -21,11 +21,11 @@ const Header = () => {
       <Link href="/">
         <Image
           src={"/images/logo-no-background.png"}
-          height={100}
-          width={100}
+         width={100}
+         height={0}
           alt="logo"
           priority={true}
-          className="py-1"
+          className="py-1 "
         />
       </Link>
 
