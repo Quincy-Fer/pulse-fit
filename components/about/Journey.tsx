@@ -3,8 +3,8 @@ import Image from "next/image";
 
 const Journey = () => {
   return (
-    <section className="mx-auto  p-16">
-      <div className="flex gap-20">
+    <section className="mx-auto p-8  lg:p-16">
+      <div className="grid lg:flex lg:gap-20 gap-4">
         <div className="flex flex-col">
           <h3 className="text-3xl mb-4">Our Journey So Far</h3>
 
@@ -12,12 +12,13 @@ const Journey = () => {
             {SUBPAGE_ABOUT.journey}
           </p>
         </div>
-        <div className="border border-black">
+        <div className="self-center lg:border border-black ">
           <Image
             src="/images/journey.jpg"
             width={500}
             height={1000}
             alt="Image of gym"
+            
           />
         </div>
       </div>
