@@ -9,7 +9,7 @@ const Trainers = () => {
       <p className="tracking-[1px] uppercase text-base mt-2 text-gray-700 text-center">
         Hover To Find Out More
       </p>
-      <div className="grid grid-cols-3 gap-4 mt-4">
+      <div className="grid grid-cols-2 lg:grid-cols-3 p-4 gap-2 lg:gap-4 mt-4">
         {SUBPAGE_ABOUT_TRAINERS.map((item, index) => {
           return <TrainersCard key={index} {...item} />;
         })}

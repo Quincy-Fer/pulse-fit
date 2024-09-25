@@ -5,7 +5,7 @@ const Leadership = () => {
   return (
     <section className="mx-auto pt-16">
       <h3 className="text-3xl mb-8 text-center">Our Leadership Team</h3>
-      <div className="grid grid-cols-2 gap-x-14 gap-y-8">
+      <div className="grid lg:grid-cols-2 gap-x-14 gap-y-8">
         {SUBPAGE_ABOUT_LEADERSHIP.map((item) => {
           return (
             <div key={item.key}>

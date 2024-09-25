@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Mission = () => {
   return (
-    <section className="mx-auto pb-16  ">
+    <section className="mx-auto pb-8 lg:pb-16  ">
       <div className="lg:flex gap-20 ">
         <div className="hidden lg:block lg:border border-black">
           <Image

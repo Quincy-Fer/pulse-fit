@@ -3,9 +3,9 @@ import { SUBPAGE_ABOUT_VALUES } from "@/constants";
 const Values = () => {
   return (
     <section className="mx-auto max-w-[1176px] ">
-      <h3 className="text-3xl  text-center">What We Stand For</h3>
+      <h3 className="text-3xl text-center">What We Stand For</h3>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 max-w-[1440px] pt-16 gap-10">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 max-w-[1440px] p-8 lg:pt-16 gap-10">
         {SUBPAGE_ABOUT_VALUES.map((item,index) => {
           return (
             <div key={index}>
@@ -19,7 +19,7 @@ const Values = () => {
           );
         })}
       </div>
-      <div className="border-b-2 border-dashed border-accent mt-16"></div>
+      <div className="border-b-2 border-dashed border-accent lg:mt-16"></div>
     </section>
   );
 };
