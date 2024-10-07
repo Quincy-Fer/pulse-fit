@@ -9,7 +9,7 @@ const Overview = () => {
           Affordable Options for Individual, Family, and Group Memberships
         </p>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
         <div>
           <p className="max-w-[600px] leading-relaxed mb-4 text-gray-800">
             At PulseFit, we offer three distinct membership tiers designed to
@@ -54,7 +54,7 @@ const Overview = () => {
             src="/images/membership-intro.jpg"
             fill={true}
             alt="laughing members"
-          />{" "}
+          /> 
         </div>
       </div>
     </section>

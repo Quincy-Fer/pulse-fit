@@ -89,22 +89,22 @@ const MembershipTable = () => {
         Prices are listed at a monthly cost
       </p>
 
-      <table className="min-w-full bg-white border border-black/50  ">
+      <table className="min-w-full  bg-white border border-black/50  ">
         <thead>
           <tr className="bg-black text-white uppercase leading-normal">
-            <th className="py-3 px-6 text-lg text-left">Benefit</th>
-            <th className="py-3 px-6 text-lg text-center">
+            <th className="py-3 px-6 lg:text-lg text-left">Benefit</th>
+            <th className="py-3 px-6 lg:text-lg text-center">
               Essential Pulse $35
             </th>
-            <th className="py-3 px-6 text-lg text-center">
+            <th className="py-3 px-6 lg:text-lg text-center">
               Enhanced Pulse $55
             </th>
-            <th className="py-3 px-6 text-lg text-center">
+            <th className="py-3 px-6 lg:text-lg text-center">
               Ultimate Pulse $85
             </th>
           </tr>
         </thead>
-        <tbody className="text-gray-800  text-base font-normal">
+        <tbody className="text-gray-800  lg:text-base font-normal">
           {benefitsData.map((row, index) => (
             <tr
               key={index}
@@ -112,7 +112,7 @@ const MembershipTable = () => {
                 index % 2 === 0 ? "bg-red-100" : "bg-white"
               }`}
             >
-              <td className="py-3 px-6 text-left whitespace-nowrap font-bold">
+              <td className="py-3 px-6 text-left lg:whitespace-nowrap font-bold">
                 {row.benefit}
               </td>
               <td className="py-3 px-6 text-center">{row.essential}</td>
