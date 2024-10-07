@@ -13,7 +13,7 @@ const Descriptions = () => {
         {SUBPAGE_CLASSES_DESCRIPTIONS[0].title}
       </h4>
 
-      <div className="grid grid-cols-1 md:grid-cols-2">
+      <div className="grid grid-cols-1 lg:grid-cols-2">
         <div className="flex flex-col gap-8">
           <div>
             <h5 className="text-lg mb-2">
@@ -44,7 +44,7 @@ const Descriptions = () => {
       <h4 className=" text-2xl mb-8 text-accent mt-16 underline underline-offset-4">
         {SUBPAGE_CLASSES_DESCRIPTIONS[1].title}
       </h4>
-      <div className="grid grid-cols-1 md:grid-cols-2">
+      <div className="grid grid-cols-1 lg:grid-cols-2">
         <div className="relative border border-black h-[420px] w-[600px]">
           <Image
             src={SUBPAGE_CLASSES_DESCRIPTIONS[1].image}
@@ -75,7 +75,7 @@ const Descriptions = () => {
       <h4 className=" text-2xl mb-8 text-accent mt-16 underline underline-offset-4">
         {SUBPAGE_CLASSES_DESCRIPTIONS[2].title}
       </h4>
-      <div className="grid grid-cols-1 md:grid-cols-2">
+      <div className="grid grid-cols-1 lg:grid-cols-2">
         <div className="flex flex-col gap-8">
           <div>
             <h5 className="text-lg mb-2">
@@ -106,7 +106,7 @@ const Descriptions = () => {
       <h4 className=" text-2xl mb-8 text-accent mt-16 underline underline-offset-4">
         {SUBPAGE_CLASSES_DESCRIPTIONS[3].title}
       </h4>
-      <div className="grid grid-cols-1 md:grid-cols-2">
+      <div className="grid grid-cols-1 lg:grid-cols-2">
         <div className="relative border border-black h-[420px] w-[600px]">
           <Image
             src={SUBPAGE_CLASSES_DESCRIPTIONS[3].image}
@@ -137,7 +137,7 @@ const Descriptions = () => {
       <h4 className=" text-2xl mb-8 text-accent mt-16 underline underline-offset-4">
         {SUBPAGE_CLASSES_DESCRIPTIONS[4].title}
       </h4>
-      <div className="grid grid-cols-1 md:grid-cols-2">
+      <div className="grid grid-cols-1 lg:grid-cols-2">
         <div className="flex flex-col gap-8">
           <div>
             <h5 className="text-lg mb-2">
@@ -168,7 +168,7 @@ const Descriptions = () => {
       <h4 className=" text-2xl mb-8 text-accent mt-16 underline underline-offset-4">
         {SUBPAGE_CLASSES_DESCRIPTIONS[5].title}
       </h4>
-      <div className="grid grid-cols-1 md:grid-cols-2">
+      <div className="grid grid-cols-1 lg:grid-cols-2">
         <div className="relative border border-black h-[420px] w-[600px]">
           <Image
             src={SUBPAGE_CLASSES_DESCRIPTIONS[5].image}
