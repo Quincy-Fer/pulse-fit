@@ -19,10 +19,10 @@ const Testimonials = () => {
   return (
     <section className="mx-auto max-w-[1440px]">
       <div className="p-8 mx-auto flex flex-col justify-center">
-        <h2 className="text-5xl tracking-tight  text-center leading-tight ">
+        <h2 className="text-2xl md:text-5xl tracking-tight  text-center leading-tight ">
           Real Stories, Real Results
         </h2>
-        <p className="tracking-[3px] text-center mt-2 text">
+        <p className="md:tracking-[3px] text-center mt-2 text">
           Read why our members love being a part of PulseFit:
         </p>
       </div>
@@ -57,7 +57,7 @@ const Testimonials = () => {
                 <div className="flex flex-col justify-center p-4">
                   <FaQuoteLeft className="self-center mt-2 text-4xl text-accent" />
                   <p className="text-gray-800 text-center p-2 leading-relaxed">{item.text}</p>
-                  <p className="self-center mt-4 font-bold tracking-[3px]">
+                  <p className="self-center md:mt-4 font-bold tracking-[3px] ">
                     {item.name}
                   </p>
                 </div>
