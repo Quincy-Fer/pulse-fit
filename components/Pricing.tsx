@@ -6,10 +6,10 @@ const Pricing = () => {
     <section className="w-full mx-auto bg-black">
       <div className="p-8">
         <div className="flex flex-col justify-center">
-          <h2 className="text-white text-center text-5xl">
+          <h2 className="text-white text-center text-2xl md:text-5xl">
             Memberships Tailored for You
           </h2>
-          <p className="text-white tracking-[4px] text-center mt-4">
+          <p className="text-white md:tracking-[4px] text-center mt-4">
             Find the membership plan that matches your goals and lifestyle.
           </p>
         </div>

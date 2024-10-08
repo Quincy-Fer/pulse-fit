@@ -20,23 +20,23 @@ const PricingCard = ({
       <h4 className="text-white text-2xl ">{title}</h4>
       <div className="bg-red-900 p-3 mt-4 mb-4">
         <p className="text-white flex gap-2 items-center">
-          <sup className="text-2xl text-white">$</sup>
-          <strong className="text-4xl text-white">{price}</strong>
-          <em className="self-end text-2xl">/month</em>
+          <sup className="text-xl md:text-2xl text-white">$</sup>
+          <strong className="text-2xl md:text-4xl text-white">{price}</strong>
+          <em className="self-end md:text-2xl">/month</em>
         </p>
       </div>
       <div className="flex">
         {benefits.map((item, index) => {
           return (
-            <div className="p-4" key={index}>
-              <p className="text-white text-lg leading-normal ">
+            <div className="max-sm:grid max-sm:grid-cols-1 p-2 md:p-4" key={index}>
+              <p className="text-white md:text-lg leading-normal ">
                 {item.benefitname}
               </p>
             </div>
           );
         })}
       </div>
-      <p className="text-white/80 tracking-[2px] mt-8 ">{paragraph}</p>
+      <p className="text-white/80 md:tracking-[2px] mt-8 ">{paragraph}</p>
 
       <div className="text-center">
         <ButtonJoin
