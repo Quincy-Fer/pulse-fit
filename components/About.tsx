@@ -12,23 +12,23 @@ const About = () => {
       />
       {/* header and padding */}
       <div className="p-8 w-full flex justify-center">
-        <h2 className="text-3xl lg:text-5xl tracking-tight max-w-[800px] text-center leading-tight font-bold lg:mb-14 z-10">
+        <h2 className="text-2xl md:text-3xl lg:text-5xl tracking-tight max-w-[800px] text-center leading-tight font-bold lg:mb-14 z-10">
           {ABOUT.header}
         </h2>
       </div>
       {/* text and button */}
       <div className="flex lg:justify-evenly justify-center">
-        <div className="z-10">
-          <p className="tracking-[3px] font-bold mb-4 text-lg">
+        <div className="z-10 flex flex-col">
+          <p className="tracking-[3px] font-bold md:mb-4 md:text-lg max-sm:text-center">
             {ABOUT.subheading}
           </p>
-          <p className="max-w-[600px] text-lg mt-8 leading-relaxed ">
+          <p className="max-w-[600px]  max-sm:p-4  md:text-lg md:mt-8 leading-relaxed ">
             {ABOUT.paragraph}
           </p>
           <ButtonJoin
             href="/about"
             text="Learn More"
-            containerStyles="uppercase mt-10 lg:mt-16 font-bold bg-accent px-8 py-4 text-white hover:bg-black hover:text-white
+            containerStyles="uppercase max-sm:ml-20  mt-6 md:mt-10 lg:mt-16 font-bold bg-accent px-8 py-4 text-white hover:bg-black hover:text-white
            transition-all text-lg "
           />
         </div>
