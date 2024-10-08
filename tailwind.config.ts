@@ -14,6 +14,7 @@ const config: Config = {
 
     backgroundImage: {
       hero: 'url(/images/hero-lg.jpg)',
+      mobile: 'url(/images/hero-mobile.jpg)', 
     },
 
 

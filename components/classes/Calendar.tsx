@@ -49,7 +49,7 @@ const Calendar = () => {
           Search
         </button>
       </div>
-      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-7 ">
+      <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-7 ">
         {["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"].map((day) => (
           <div key={day} className="p-4  bg-red-700">
             <h3 className="text-lg text-white font-semibold text-center mb-4">
