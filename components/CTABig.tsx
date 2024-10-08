@@ -4,8 +4,8 @@ import ButtonJoin from "./ButtonJoin";
 const CTABig = () => {
   return (
     <section className="mx-auto w-full">
-      <div className="mt-10 p-16 bg-accent">
-        <h2 className="text-center text-5xl text-white mb-10">
+      <div className="mt-10 p-8 md:p-16 bg-accent">
+        <h2 className="text-center text-2xl md:text-5xl text-white mb-10">
           Get Fit, Get Pulsing!
         </h2>
         <div className=" grid lg:grid-cols-2 gap-12">
@@ -19,14 +19,14 @@ const CTABig = () => {
             />
           </div>
           <div className="flex flex-col ">
-            <p className="text-white text-lg tracking-widest leading-relaxed max-w-[600px]">
+            <p className="text-white text-base md:text-lg md:tracking-widest md:leading-relaxed max-w-[600px]">
               Are you ready to make a real change? Whether you're looking to
               build strength, lose weight, or simply live a healthier lifestyle,
               our gym is the perfect place to start your journey. With
               state-of-the-art equipment, expert trainers, and a supportive
               community, you'll have everything you need to succeed.
             </p>
-            <p className="text-white text-lg tracking-widest leading-relaxed max-w-[600px] mt-6">
+            <p className="hidden md:block text-white text-lg tracking-widest leading-relaxed max-w-[600px] mt-6">
               <span className="font-bold">Don't wait any longer!</span> Your
               best self is just a workout away. Join us today and take the first
               step toward the healthier, stronger, and more confident you.
