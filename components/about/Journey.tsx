@@ -6,7 +6,7 @@ const Journey = () => {
     <section className="mx-auto p-8  lg:p-16">
       <div className="grid lg:flex lg:gap-20 gap-4">
         <div className="flex flex-col">
-          <h3 className="text-3xl mb-4">Our Journey So Far</h3>
+          <h3 className="text-3xl mb-4 max-sm:text-balance">Our Journey So Far</h3>
 
           <p className="max-w-[600px] leading-loose text-gray-800 ">
             {SUBPAGE_ABOUT.journey}
