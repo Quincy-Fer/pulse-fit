@@ -2,7 +2,7 @@ import { SUBPAGE_ABOUT_VALUES } from "@/constants";
 
 const Values = () => {
   return (
-    <section className="mx-auto max-w-[1176px] max-sm:p-8 ">
+    <section className="mx-auto max-w-[1176px] max-lg:p-8  ">
       <h3 className="text-3xl text-center">What We Stand For</h3>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 max-w-[1440px] p-8 lg:pt-16 gap-10">
