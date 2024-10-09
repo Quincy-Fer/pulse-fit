@@ -17,7 +17,7 @@ const TrainersCard = ({
   return (
     <div className="relative group  overflow-hidden  shadow-lg">
       {/* Background Image */}
-      <div className="w-[400px] h-[400px] relative border-2 border-black">
+      <div className="w-[300px] h-[350px]  md:w-[400px] md:h-[400px] relative border-2 border-black">
         <Image src={image} fill alt={alt} className="bg-cover bg-center" />
       </div>
 
@@ -27,8 +27,8 @@ const TrainersCard = ({
         flex flex-col items-center justify-center opacity-0 group-hover:opacity-100
          transition-opacity duration-300"
       >
-        <h5 className="text-white text-2xl">{name}</h5>
-        <p className="text-white tracking-[1px]">{title}</p>
+        <h5 className="text-white md:text-2xl">{name}</h5>
+        <p className="text-white md:tracking-[1px]">{title}</p>
         <p className="text-white p-8 mt-2 leading-loose">{paragraph}</p>
       </div>
     </div>

@@ -3,8 +3,8 @@ import TrainersCard from "./TrainersCard";
 
 const Trainers = () => {
   return (
-    <section className="mx-auto p-8 pb-16">
-      <div className="border-t-2 border-dashed border-accent mt-16"></div>
+    <section className="mx-auto md:p-8 lg:p-12 ">
+      <div className="border-t-2 border-dashed border-accent md:mt-16"></div>
       <h3 className="text-3xl mt-8 text-center">Our Trainers</h3>
       <p className="tracking-[1px] uppercase text-base mt-2 text-gray-700 text-center">
         Hover To Find Out More
