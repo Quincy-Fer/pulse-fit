@@ -8,8 +8,8 @@ const Leadership = () => {
       <div className="grid lg:grid-cols-2 gap-x-14 gap-y-8">
         {SUBPAGE_ABOUT_LEADERSHIP.map((item) => {
           return (
-            <div key={item.key}>
-              <div className="w-[400px] h-[400px] relative border-2 border-black">
+            <div key={item.key} className="flex flex-col">
+              <div className="self-center w-[200px] h-[200px] md:w-[400px] md:h-[400px] relative border-2 border-black">
                 <Image src={item.image} fill alt={item.alt} className="" />
               </div>
               <div className="flex gap-2 justify-between mt-2 ">
