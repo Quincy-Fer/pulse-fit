@@ -14,7 +14,7 @@ const page = () => {
   return (
     <section className="bg-slate-100 mx-auto ">
       <div className="pt-36 pb-20 bg-accent">
-        <h2 className="text-white text-center text-5xl">Contact Us</h2>
+        <h2 className="text-white text-center text-4xl md:text-5xl">Contact Us</h2>
       </div>
 
       <div className="p-16">
@@ -50,7 +50,7 @@ const page = () => {
                 </div>
                 {/* socials */}
               </div>
-              <div className="flex flex-col lg:mt-20">
+              <div className="flex flex-col max-sm:mt-8 lg:mt-20">
                 <Link
                   href="https://facebook.com/"
                   target="_blank"
