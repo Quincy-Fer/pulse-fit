@@ -12,11 +12,11 @@ const Leadership = () => {
               <div className="self-center w-[200px] h-[200px] md:w-[400px] md:h-[400px] relative border-2 border-black">
                 <Image src={item.image} fill alt={item.alt} className="" />
               </div>
-              <div className="flex gap-2 justify-between mt-2 ">
+              <div className="flex gap-2 md:justify-between mt-2 justify-center ">
                 <h4 className="text-base">{item.name}</h4>
                 <p className=" text-base">{item.title}</p>
               </div>
-              <p className="max-w-[400px] mt-2 text-gray-800">
+              <p className="max-w-[400px] mt-2 text-gray-800 max-sm:p-2">
                 {item.paragraph}
               </p>
             </div>

@@ -348,8 +348,8 @@ export const SUBPAGE_ABOUT_LEADERSHIP = [
   },
   {
     key: "samantha",
-    name: "Samantha Rivera",
-    title: "Chief Operating Officer (COO)",
+    name: "Sam Rivera",
+    title: "Chief Operating Officer COO",
     paragraph:
       "Samantha oversees daily operations, ensuring member satisfaction and seamless facility\
      management. Her business management expertise keeps PulseFit running smoothly and efficiently.",
