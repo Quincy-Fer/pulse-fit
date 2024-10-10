@@ -5,10 +5,12 @@ import { ABOUT } from "@/constants";
 const About = () => {
   return (
     <section className="mx-auto bg-slate-50 relative pb-20 ">
-      <img
+      <Image
         src="/images/pulsesvg.svg"
         alt="image of a pulse"
         className="absolute w-full opacity-50 h-full object-cover"
+        width={800}
+        height={1000}
       />
       {/* header and padding */}
       <div className="p-8 w-full flex justify-center">

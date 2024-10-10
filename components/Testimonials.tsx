@@ -48,10 +48,11 @@ const Testimonials = () => {
             <SwiperSlide key={item.key} className="">
               <div className="flex flex-col  justify-center">
                 <div className="h-[200px] w-[200px] mt-8 self-center">
-                  <img
+                  <Image
                     src={item.image}
                     alt={item.alt}
                     className="bg-cover w-full h-full border border-gray-500 rounded-full"
+                    fill={true}
                   />
                 </div>
                 <div className="flex flex-col justify-center p-4">
