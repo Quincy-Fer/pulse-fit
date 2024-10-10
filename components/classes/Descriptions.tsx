@@ -32,7 +32,7 @@ const Descriptions = () => {
             </p>
           </div>
         </div>
-        <div className="relative border border-black h-[420px] w-[600px] ">
+        <div className="hidden md:block relative border border-black h-[420px] w-[600px] ">
           <Image
             src={SUBPAGE_CLASSES_DESCRIPTIONS[0].image}
             alt={SUBPAGE_CLASSES_DESCRIPTIONS[0].alt}
@@ -45,7 +45,7 @@ const Descriptions = () => {
         {SUBPAGE_CLASSES_DESCRIPTIONS[1].title}
       </h4>
       <div className="grid grid-cols-1 lg:grid-cols-2">
-        <div className="relative border border-black h-[420px] w-[600px] md:max-lg:mb-4">
+        <div className="hidden md:block relative border border-black h-[420px] w-[600px] md:max-lg:mb-4">
           <Image
             src={SUBPAGE_CLASSES_DESCRIPTIONS[1].image}
             alt={SUBPAGE_CLASSES_DESCRIPTIONS[1].alt}
@@ -94,7 +94,7 @@ const Descriptions = () => {
             </p>
           </div>
         </div>
-        <div className="relative border border-black h-[420px] w-[600px]">
+        <div className="hidden md:block relative border border-black h-[420px] w-[600px]">
           <Image
             src={SUBPAGE_CLASSES_DESCRIPTIONS[2].image}
             alt={SUBPAGE_CLASSES_DESCRIPTIONS[2].alt}
@@ -107,7 +107,7 @@ const Descriptions = () => {
         {SUBPAGE_CLASSES_DESCRIPTIONS[3].title}
       </h4>
       <div className="grid grid-cols-1 lg:grid-cols-2">
-        <div className="relative border border-black h-[420px] w-[600px] md:max-lg:mb-4">
+        <div className="hidden md:block relative border border-black h-[420px] w-[600px] md:max-lg:mb-4">
           <Image
             src={SUBPAGE_CLASSES_DESCRIPTIONS[3].image}
             alt={SUBPAGE_CLASSES_DESCRIPTIONS[3].alt}
@@ -156,7 +156,7 @@ const Descriptions = () => {
             </p>
           </div>
         </div>
-        <div className="relative border border-black h-[420px] w-[600px]">
+        <div className="hidden md:block relative border border-black h-[420px] w-[600px]">
           <Image
             src={SUBPAGE_CLASSES_DESCRIPTIONS[4].image}
             alt={SUBPAGE_CLASSES_DESCRIPTIONS[4].alt}
@@ -169,7 +169,7 @@ const Descriptions = () => {
         {SUBPAGE_CLASSES_DESCRIPTIONS[5].title}
       </h4>
       <div className="grid grid-cols-1 lg:grid-cols-2">
-        <div className="relative border border-black h-[420px] w-[600px] md:max-lg:mb-4">
+        <div className="hidden md:block relative border border-black h-[420px] w-[600px] md:max-lg:mb-4">
           <Image
             src={SUBPAGE_CLASSES_DESCRIPTIONS[5].image}
             alt={SUBPAGE_CLASSES_DESCRIPTIONS[5].alt}
