@@ -9,8 +9,8 @@ To view the site :
 - Open http://localhost:3000/ for your viewing pleasure!
   
 Tools Used:
-- Build Tool: Vite
-- Programming languages: html/css/javascript
+- Next.js Framework
+- Programming languages: html/css/javascript . Typescript
 - Library: React.js
 - Styling Framework: Tailwind CSS
 - Sitemap & Wireframe: Relume.io
