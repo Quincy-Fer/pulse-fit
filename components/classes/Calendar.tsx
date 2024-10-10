@@ -34,13 +34,13 @@ const Calendar = () => {
       <p className="uppercase tracking-[1px] text-gray-700 mb-4">
         Find out when your favorite class starts
       </p>
-      <div className="flex mb-8">
+      <div className="md:flex mb-8">
         <input
           type="text"
           placeholder="Search for a class..."
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
-          className="p-2 border border-gray-400  mr-4"
+          className="p-2 border border-gray-400  mr-4 max-sm:mb-4"
         />
         <button
           onClick={handleSearch}

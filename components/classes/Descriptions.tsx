@@ -3,9 +3,9 @@ import Image from "next/image";
 
 const Descriptions = () => {
   return (
-    <section className="px-16 pt-16">
+    <section className="px-16 pt-8 md:pt-16">
       <h3 className="text-3xl mb-2 lg:text-center w-full ">What We Offer</h3>
-      <p className="uppercase tracking-[1px] mb-16 lg:text-center text-gray-700  ">
+      <p className="uppercase md:tracking-[1px] mb-8 md:mb-16 lg:text-center text-gray-700  ">
         take a closer look at our wide variety of classes
       </p>
       {/* 1st category */}
