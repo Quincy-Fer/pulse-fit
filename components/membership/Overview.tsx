@@ -49,7 +49,7 @@ const Overview = () => {
             </li>
           </ul>
         </div>
-        <div className="relative border border-black w-[600px] h-[420px]">
+        <div className="relative border border-black w-[300px] h-[300px] md:w-[600px] md:h-[420px]">
           <Image
             src="/images/membership-intro.jpg"
             fill={true}
