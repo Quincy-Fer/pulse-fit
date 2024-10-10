@@ -84,12 +84,13 @@ const MembershipTable = () => {
 
   return (
     <div className="overflow-x-auto my-10 px-8">
-      <h3 className="text-3xl mb-4 ">Maximize Your PulseFit Perks</h3>
+      <h3 className="text-3xl mb-4">Maximize Your PulseFit Perks</h3>
       <p className="italic text-base tracking-[1px] mb-2">
         Prices are listed at a monthly cost
       </p>
 
-      <table className="min-w-full  bg-white border border-black/50  ">
+      {/* Desktop and Tablet Version */}
+      <table className="min-w-full bg-white border border-black/50 hidden md:table">
         <thead>
           <tr className="bg-black text-white uppercase leading-normal">
             <th className="py-3 px-6 lg:text-lg text-left">Benefit</th>
@@ -104,7 +105,7 @@ const MembershipTable = () => {
             </th>
           </tr>
         </thead>
-        <tbody className="text-gray-800  lg:text-base font-normal">
+        <tbody className="text-gray-800 lg:text-base font-normal">
           {benefitsData.map((row, index) => (
             <tr
               key={index}
@@ -122,6 +123,36 @@ const MembershipTable = () => {
           ))}
         </tbody>
       </table>
+
+      {/* Mobile Version */}
+      <div className="md:hidden">
+        {benefitsData.map((row, index) => (
+          <div
+            key={index}
+            className={`border border-black/50 mb-4  ${
+              index % 2 === 0 ? "bg-red-100" : "bg-white"
+            }`}
+          >
+            <div className="p-4">
+              <h4 className="text-lg font-bold mb-2">{row.benefit}</h4>
+              <div className="flex flex-col">
+                <div className="flex justify-between">
+                  <span className="font-semibold">Essential Pulse:</span>
+                  <span>{row.essential}</span>
+                </div>
+                <div className="flex justify-between">
+                  <span className="font-semibold">Enhanced Pulse:</span>
+                  <span>{row.plus}</span>
+                </div>
+                <div className="flex justify-between">
+                  <span className="font-semibold">Ultimate Pulse:</span>
+                  <span>{row.elite}</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
     </div>
   );
 };
