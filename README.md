@@ -29,6 +29,6 @@ Process used for creating the website:
 7. Gather assets: stock photos from pexel, unsplash, pixabay & icons from React Icons
 8. Setup file structure in VsCode: component folder holding all react components. Constants folder with index.js file holding all the data. Images folder inside public folder holding all the images & svgs.
 9. Use Next.js app router to create multiple pages for the website: home, about , classes , membership, contact
-10. Code the UI per page, dividing each page in multiple section. Create react component per section
+10. Code the UI per page, dividing each page in multiple sections. Create react component per section
 11. Add interactivity to site
 12. Make site fully responsive by creating tablet and mobile versions of the site.
