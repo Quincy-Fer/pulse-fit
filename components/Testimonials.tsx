@@ -47,21 +47,23 @@ const Testimonials = () => {
           return (
             <SwiperSlide key={item.key} className="">
               <div className="flex flex-col  justify-center">
-                <div className="h-[200px] w-[200px] mt-8 self-center">
+                <div className="absolute w-[250px] h-[250px] mt-72 self-center">
                   <Image
                     src={item.image}
                     alt={item.alt}
-                    className="bg-cover w-full h-full border border-gray-500 rounded-full"
+                    className="  border bg-cover border-gray-500 rounded-full"
                     fill={true}
                   />
                 </div>
-                <div className="flex flex-col justify-center p-4">
-                  <FaQuoteLeft className="self-center mt-2 text-4xl text-accent" />
-                  <p className="text-gray-800 text-center p-2 leading-relaxed">{item.text}</p>
-                  <p className="self-center md:mt-4 font-bold tracking-[3px] ">
-                    {item.name}
-                  </p>
-                </div>
+              </div>
+              <div className="flex flex-col justify-center p-4 mt-64  ">
+                <FaQuoteLeft className="self-center mt-2 text-4xl text-accent" />
+                <p className="text-gray-800 text-center p-2 leading-relaxed">
+                  {item.text}
+                </p>
+                <p className="self-center md:mt-4 font-bold tracking-[3px] ">
+                  {item.name}
+                </p>
               </div>
             </SwiperSlide>
           );
