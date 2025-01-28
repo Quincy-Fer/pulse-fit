@@ -51,6 +51,8 @@ export const ABOUT = {
     "At PulseFit, we're more than just a gym—we're a community driven by the belief that every individual has the potential to achieve greatness. Founded with a passion for fitness and a commitment to innovation, PulseFit was created to redefine the workout experience. Our mission is to empower you with the tools, support, and environment you need to elevate your health and well-being. Whether you're a fitness enthusiast or just beginning your journey, PulseFit is here to inspire and challenge you every step of the way.",
 };
 
+
+
 export const FEATURES = [
   {
     title: "State-of-the-Art Equipment",
