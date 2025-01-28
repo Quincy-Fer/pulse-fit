@@ -4,7 +4,7 @@ import { HERO } from "@/constants/index";
 const Hero = () => {
   return (
     <section
-      className="h-[80vh] lg:h-[760px] bg-mobile md:bg-hero bg-cover bg-top bg-no-repeat
+      className="h-[80vh] lg:h-[760px] xl:h-[860px] bg-mobile md:bg-hero bg-cover bg-top bg-no-repeat
      relative "
     >
       <div className="w-full h-full bg-black/40 absolute top-0 z-10">
