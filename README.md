@@ -2,7 +2,7 @@
 
 Created this website for a modern gym called Pulse Fit! The site is fully responsive for mobile tablet and desktop. 
 
-### Run the website yourself
+### To run the website yourself:
 
 * Clone the code for the site
 * In the terminal type: npm run build
