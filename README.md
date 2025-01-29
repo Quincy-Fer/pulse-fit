@@ -1,23 +1,27 @@
-Pulse Fit is a website for gym enthousiasts.
+### Local gym website
 
 Created this website for a modern gym called Pulse Fit! The site is fully responsive for mobile tablet and desktop. 
-To view the site : 
 
-- Clone the code for the site
-- In the terminal type: npm run build
-- After it is done building type: npm start
-- Open http://localhost:3000/ for your viewing pleasure!
+### Run the website yourself
+
+* Clone the code for the site
+* In the terminal type: npm run build
+* After it is done building type: npm start
+* Open http://localhost:3000/ for your viewing pleasure!
   
-Tools Used:
-- Next.js Framework
-- Programming languages: HTML CSS JAVASCRIPT TYPESCRIPT
-- Library: React.js
-- Styling Framework: Tailwind CSS
-- Sitemap & Wireframe: Relume.io
-- Content: Chatgpt
-- Design Inspiration: behance, dribble
-- Images: pexels, pixabay, unsplash
-- Icons: React Icons
+### Tools Used:
+
+* Next.js Framework
+* Programming languages: HTML CSS JAVASCRIPT TYPESCRIPT
+* Library: React.js
+* Styling Framework: Tailwind CSS
+* Hosting: Vercel
+  
+* Sitemap & Wireframe: Relume.io
+* Content: Chatgpt
+* Design Inspiration: behance, dribble
+* Images: pexels, pixabay, unsplash
+* Icons: React Icons
   
 Process used for creating the website:
 1. Dribble and behance for design inspiration
