@@ -1,6 +1,6 @@
 Pulse Fit is a website for gym enthousiasts.
 
-Created my third personal website about a modern gym called Pulse Fit! The site is fully responsive for mobile tablet and desktop. 
+Created this website for a modern gym called Pulse Fit! The site is fully responsive for mobile tablet and desktop. 
 To view the site : 
 
 - Clone the code for the site
