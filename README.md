@@ -6,6 +6,15 @@ View live website here ! (https://pulse-fit-kappa.vercel.app/)
 
 ![pulse-fit hero](https://github.com/user-attachments/assets/86a0f1b1-1cff-4e83-8693-d14699ea5bc7)
 
+### Features:
+
+* Next.js App router to create routes to homepage and subpages
+* Use of Next specific features such as Image and Link component
+* Responsive layout by using Tailwind.css utility classes
+* Created a visually appealing homepage with sections for: about, classes, membership and testimonials
+* About us subpage: additional info about gym mission, leadership team and trainers
+* Classes subpage: information about classes and a dynamic schedule showing available gym classes with filtering options.
+* Membership subpage:  information for different membership tiers and sign-up form
 
 ### To run the website yourself:
 
