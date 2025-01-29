@@ -1,6 +1,7 @@
 ### Local gym website
 
 Created this website for a modern gym called Pulse Fit! The site is fully responsive for mobile tablet and desktop. 
+
 View live website here ! (https://pulse-fit-kappa.vercel.app/)
 
 ### To run the website yourself:
