@@ -4,6 +4,9 @@ Created this website for a modern gym called Pulse Fit! The site is fully respon
 
 View live website here ! (https://pulse-fit-kappa.vercel.app/)
 
+![pulse-fit hero](https://github.com/user-attachments/assets/86a0f1b1-1cff-4e83-8693-d14699ea5bc7)
+
+
 ### To run the website yourself:
 
 * Clone the code for the site
