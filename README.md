@@ -13,7 +13,7 @@ View live website here ! (https://pulse-fit-kappa.vercel.app/)
 * Responsive layout by using Tailwind.css utility classes
 
 * Created a visually appealing homepage with sections for: about, classes, membership and testimonials
-* About us subpage: additional info about gym mission, leadership team and trainers
+* About subpage: additional info about gym mission, leadership team and trainers
 * Classes subpage: information about classes and a dynamic schedule showing available gym classes with filtering options.
 * Membership subpage:  information for different membership tiers and sign-up form
 
